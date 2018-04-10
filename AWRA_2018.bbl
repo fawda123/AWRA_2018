@@ -1,0 +1,43 @@
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{}
+
+\bibitem[Beck et~al., 2017]{Beck17c}
+Beck MW, {Hagy III} JD, Le C. 2017.
+\newblock Quantifying seagrass light requirements using an algorithm to
+  spatially resolve depth of colonization.
+\newblock Estuaries and Coasts, pages 1--17.
+
+\bibitem[Diefenderfer et~al., 2016]{Diefenderfer16}
+Diefenderfer HL, Johnson GE, Thom RM, Buenau KE, Weitkamp LA, Woodley CM, Borde
+  AB, Kropp RK. 2016.
+\newblock Evidence-based evaluation of the cumulative effects of ecosystem
+  restoration.
+\newblock Ecosphere, 7(3):e01242.
+
+\bibitem[Greening and Janicki, 2006]{Greening06}
+Greening H, Janicki A. 2006.
+\newblock Toward reversal of eutrophic conditions in a subtrophical estuary:
+  Water quality and seagrass response to nitrogen loading reductions in {T}ampa
+  {B}ay, {F}lorida, {USA}.
+\newblock Environmental Management, 38(2):163--178.
+
+\bibitem[Hampton et~al., 2015]{Hampton15}
+Hampton SE, Anderson SS, Bagby SC, Gries C, Han X, Hart EM, Jones MB, Lenhardt
+  WC, MacDonald A, Michener WK, Mudge J, Pourmokhtarian A, Schildhauer MP, Woo
+  KH, Zimmerman N. 2015.
+\newblock The tao of open science for ecology.
+\newblock Ecosphere, 6(7):1--13.
+
+\bibitem[Morrison et~al., 2006]{Morrison06}
+Morrison G, Sherwood ET, Boler R, Barron J. 2006.
+\newblock Variations in water clarity and chlorophyll\textit{a} in {T}ampa
+  {B}ay, {F}lorida, in response to annual rainfall, 1985-2004.
+\newblock Estuaries and Coasts, 29(6):926--931.
+
+\bibitem[Sherwood et~al., 2017]{Sherwood17}
+Sherwood ET, Greening HS, Johansson JOR, Kaufman K, Raulerson G. 2017.
+\newblock {T}ampa {B}ay ({F}lorida, {USA}): Documenting seagrass recovery since
+  the 1980s and reviewing the benefits.
+\newblock Southeastern Geographer, 57(3):294--319.
+
+\end{thebibliography}

@@ -115,17 +115,157 @@
 \section{Background}
 
 %%%%%%
-\begin{frame}{Background}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Open science workflow}}}
+\centerline{\includegraphics[width=0.85\textwidth]{fig/scienceflow.png}}
+\vfill
+\tiny
+Modified from \href{https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/ES14-00402.1}{Hampton et al. 2015. The Tao of open science for ecology. Ecosphere 6(7):1-13.}
 \end{frame}
 
-% 
-% %%%%%%
-% \section{References}
-% \begin{frame}[t,shrink]{\textbf{References}}
-% % \tiny
-% % \setbeamertemplate{bibliography item}{}
-% % \bibliographystyle{apalike_mine}
-% % \bibliography{refs}
-% \end{frame}
+%%%%%%
+\begin{frame}[t]{Final thoughts}{}
+{\large \emtxt{Open Science for Synthesis: Gulf Research Program}}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+July 10 - July 28, 2017\\
+NCEAS, Santa Barbara, CA 
+\end{column}
+\begin{column}{0.5\textwidth}
+\hfill \includegraphics[width = \textwidth]{fig/nceas_full.png}
+\end{column}
+\end{columns}
+\vspace{0.1in}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\centerline{\fbox{\includegraphics[width = 0.85\textwidth]{fig/gom.jpg}}}
+\end{column}
+\begin{column}{0.5\textwidth}
+\centerline{\fbox{\includegraphics[width = 0.65\textwidth]{fig/ossgrp.jpg}}}
+\end{column}
+\end{columns}
+\end{frame}
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Open science workflow}}}
+{\large \emtxt{Open Science for Synthesis: Gulf Research Program}}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+July 10 - July 28, 2017\\
+NCEAS, Santa Barbara, CA 
+\end{column}
+\begin{column}{0.5\textwidth}
+\hfill \includegraphics[width = \textwidth]{fig/nceas_full.png}
+\end{column}
+\end{columns}
+\vspace{0.1in}
+\vfill
+\centerline{\url{https://nceas.github.io/oss-2017/lessons.html}}
+\begin{itemize}
+\item Collaboration modes and technologies, virtual collaboration
+\item Data management, preservation, and sharing
+\item Data manipulation, integration, and exploration
+\item Scientific workflows and reproducible research
+\item Programming using agile and sustainable software practices
+\item Data analysis and modeling
+\item Communicating results to broad communities
+\end{itemize}
+\vfill
+\end{frame}
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Today's talk}}}
+\onslide<+->
+Our experience using the open science workflow to inform restoration projects in estuaries \\~\\
+\onslide<+->
+Can we use disparate data to prioritize future restoration projects aimed at improving water quality? \\~\\
+\begin{itemize}
+\item<+-> \emtxt{Synthesize} data in space and time to evaluate cumulative effects of restoration projects\\~\\
+\item<+-> \emtxt{Develop} a Bayesian Decision Network with empirical observations to evaluate likelihood of potential outcomes \\~\\
+\item<+-> \emtxt{Apply} the Decision Network to guide expectations for future restoration projects
+\end{itemize}
+\end{frame}
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Tampa Bay - from gross to less gross}}}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\onslide<+->
+\begin{center}
+\includegraphics[width=0.7\textwidth]{fig/TB_Algae.png}\\~\\
+\includegraphics[width=0.7\textwidth]{fig/post_rest_sh.jpg}\\~\\
+\end{center}
+\end{column}
+\begin{column}{0.5\textwidth}
+\emtxt{Past:}
+\begin{itemize}
+\item Mid-1970s N load 8.2$\times$10$^6$ yr$^{-1}$ {\footnotesize \cite{Greening06}}
+\item Elevated chl-a concentrations
+\item Increased occurrence of HABs
+\end{itemize}
+\onslide<+->
+\emtxt{Present:}
+\begin{itemize}
+\item 2016 seagrass at ~17k ha {\footnotesize \cite{Sherwood17}}
+\item Reductions in nutrient load, chlorophyll
+\item Increase in water clarity {\footnotesize \cite{Morrison06,Beck17c}}
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Tampa Bay - open data sources}}}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\onslide<+->
+\begin{center}
+\includegraphics[width=0.95\textwidth]{fig/tbrest_map.pdf}
+\end{center}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{itemize}
+\item \emtxt{Water quality} monitoring dataset - 1974 to present, ~ 500 obs. per site \\~\\
+\item<+-> \emtxt{Restoration projects} dataset - 500 projects since 1971, habitat and water infrastructure projects
+\end{itemize}
+\end{column}
+\end{columns}
+\onslide<+->
+\begin{center}
+Despite considerable \emtxt{investments} in restoration, \emtxt{effectiveness evaluation} continues to elude practitioners at geographic scales {\footnotesize \cite{Diefenderfer16}}
+\end{center}
+\end{frame}
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+Empirical relationship fed into decision support tool
+\end{frame}
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Open science workflow}}}
+\centerline{\includegraphics[width=0.85\textwidth]{fig/scienceflow.png}}
+\vfill
+\tiny
+Modified from \cite{Hampton15}
+\end{frame}
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Open science workflow}}}
+What aspects of our project used and benefitted from open science?
+\begin{itemize}
+\item Early idea conception
+\item Long distance collaboration
+\item Transparent and reproducible analysis
+\end{itemize}
+\centerline{Teach a scientist to fish...}
+\end{frame}
+
+%%%%%%
+\section{References}
+\begin{frame}[t,shrink]{\textbf{References}}
+\tiny
+\setbeamertemplate{bibliography item}{}
+\bibliographystyle{apalike_mine}
+\bibliography{refs}
+\end{frame}
 
 \end{document}
