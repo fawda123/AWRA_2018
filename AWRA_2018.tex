@@ -180,8 +180,8 @@ Our experience using the open science workflow to inform restoration projects in
 Can we use disparate data to prioritize future restoration projects aimed at improving water quality? \\~\\
 \begin{itemize}
 \item<+-> \emtxt{Synthesize} data in space and time to evaluate cumulative effects of restoration projects\\~\\
-\item<+-> \emtxt{Develop} a Bayesian Decision Network with empirical observations to evaluate likelihood of potential outcomes \\~\\
-\item<+-> \emtxt{Apply} the Decision Network to guide expectations for future restoration projects
+\item<+-> \emtxt{Develop} a decision support tool with empirical observations to evaluate likelihood of potential outcomes \\~\\
+\item<+-> \emtxt{Apply} the tool to guide expectations for future restoration projects
 \end{itemize}
 \end{frame}
 
@@ -191,8 +191,8 @@ Can we use disparate data to prioritize future restoration projects aimed at imp
 \begin{column}{0.5\textwidth}
 \onslide<+->
 \begin{center}
-\includegraphics[width=0.7\textwidth]{fig/TB_Algae.png}\\~\\
-\includegraphics[width=0.7\textwidth]{fig/post_rest_sh.jpg}\\~\\
+\fbox{\includegraphics[width=0.7\textwidth]{fig/TB_Algae.png}}\\~\\
+\fbox{\includegraphics[width=0.7\textwidth]{fig/post_rest_sh.jpg}}\\~\\
 \end{center}
 \end{column}
 \begin{column}{0.5\textwidth}
@@ -205,7 +205,7 @@ Can we use disparate data to prioritize future restoration projects aimed at imp
 \onslide<+->
 \emtxt{Present:}
 \begin{itemize}
-\item 2016 seagrass at ~17k ha {\footnotesize \cite{Sherwood17}}
+\item 2016 seagrass at \textasciitilde 17k ha {\footnotesize \cite{Sherwood17}}
 \item Reductions in nutrient load, chlorophyll
 \item Increase in water clarity {\footnotesize \cite{Morrison06,Beck17c}}
 \end{itemize}
@@ -224,7 +224,7 @@ Can we use disparate data to prioritize future restoration projects aimed at imp
 \end{column}
 \begin{column}{0.5\textwidth}
 \begin{itemize}
-\item \emtxt{Water quality} monitoring dataset - 1974 to present, ~ 500 obs. per site \\~\\
+\item \emtxt{Water quality} monitoring dataset - 1974 to present, \textasciitilde 500 obs. per site \\~\\
 \item<+-> \emtxt{Restoration projects} dataset - 500 projects since 1971, habitat and water infrastructure projects
 \end{itemize}
 \end{column}
@@ -236,8 +236,117 @@ Despite considerable \emtxt{investments} in restoration, \emtxt{effectiveness ev
 \end{frame}
 
 %%%%%%
+\begin{frame}[t]{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\emtxt{Task 1}: Can we empirically link 500 restoration projects to chlorophyll changes at water quality stations over a forty year period? 
+\vfill
+\centerline{\includegraphics[width=0.65\textwidth]{fig/tidyverse.png}}
+\end{frame}
+
+
+
+%%%%%%
 \begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
-Empirical relationship fed into decision support tool
+\onslide<1->
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{overprint}
+\begin{figure}
+\centering
+\includegraphics<1>[width=\textwidth]{fig/clomap1.pdf}
+\includegraphics<2>[width=\textwidth]{fig/clomap2.pdf}
+\includegraphics<3>[width=\textwidth]{fig/clomap3.pdf}
+\includegraphics<4->[width=\textwidth]{fig/clomap5.pdf}
+\end{figure}
+\end{overprint}
+\end{column}
+\begin{column}{0.5\textwidth}
+\onslide<1->
+Can we link 500 restoration projects to chlorophyll changes over a forty year period? \\~\\
+\begin{itemize}
+\item<2-> Consider an effect of restoration \emtxt{site type}? \\~\\
+\item<3-> Consider \emtxt{distance} of sites from water quality stations? \\~\\
+\item<4-> Consider \emtxt{cumulative effects}? \\~\\
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+%%%%%%
+\begin{frame}[t]{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\onslide<1->
+WQ and restoration sites: \emtxt{spatial join}
+\begin{figure}
+\centering
+\includegraphics<1->[width=0.16\textwidth]{fig/ptplo.pdf}
+\end{figure}
+\begin{overprint}
+\onslide<2>
+WQ and restoration sites: \emtxt{temporal join}
+\begin{figure}
+\centering
+\includegraphics<2>[width=\textwidth]{fig/tmplo1.pdf}
+\end{figure}
+\onslide<3>
+WQ and restoration sites: \emtxt{temporal join, before/after}
+\begin{figure}
+\centering
+\includegraphics<3>[width=\textwidth]{fig/tmplo2.pdf}
+\end{figure}
+\onslide<4>
+WQ and restoration sites: \emtxt{temporal join, before/after, slice}
+\begin{figure}
+\centering
+\includegraphics<4>[width=\textwidth]{fig/tmplo3.pdf}
+\end{figure}
+\end{overprint}
+\end{frame}
+
+
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\onslide<1->
+For \emtxt{many} water quality stations matched to \emtxt{many} restoration sites...\\~\\
+\begin{overprint}
+\begin{figure}
+\centering
+\includegraphics<1>[width = \textwidth]{fig/dens1.pdf}
+\includegraphics<2>[width = \textwidth]{fig/dens2.pdf}
+\end{figure}
+\end{overprint}
+\end{frame}
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\onslide<1->
+What is the probability of low/high chlorophyll given other events?\\~\\
+\begin{center}
+$P\left(Chl \mid Event\right) = \frac{P\left(Event \mid Chl\right) \cdot P\left(Chl \right)}{P \left(Event\right)}$ \\~\\
+\end{center}
+\onslide<2->
+\begin{itemize}
+\item Do water quality conditions differ by \emtxt{restoration type}?\\~\\
+\item Does it differ by low/high \emtxt{salinity} as a natural covariate?\\~\\
+\end{itemize}
+\onslide<3->
+\begin{center}
+\emtxt{Bayesian models let us evaluate likelihood of potential outcomes given conditional distributions}
+\end{center}
+\end{frame}
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+
+
+{\centering \includegraphics[width=\maxwidth]{fig/unnamed-chunk-5-1} 
+
+}
+
+
+
+
 \end{frame}
 
 %%%%%%

@@ -50,14 +50,35 @@ invisible(dev.off())
 <<setup, include = F, cache = F>>=
 # set global chunk options
 library(knitr)
-opts_chunk$set(fig.path='fig/', fig.align='center', fig.show='hold',message=F,echo=F,results='asis',dev='pdf',dev.args=list(family='serif'),fig.pos='!ht',warning=F)
-options(replace.assign=T,width=90)
+opts_chunk$set(fig.path='fig/', fig.align = 'center', fig.show = 'hold', message = F, echo = F, results = 'asis', dev = 'pdf', dev.args = list(family = 'serif', bg = 'transparent'), fig.pos = '!ht', warning = F)
+options(replace.assign = T, width = 90)
 @
 
 % dependent data
 <<dep_dat, include = F, cache = F>>=
 source('R/funcs.R')
+source('R/get_chg.R')
+source('R/get_clo.R')
+source('R/get_cdt.R')
+source('R/get_brk.R')
+source('R/get_fin.R')
+source('R/get_all.R')
+source('R/rnd_dat.R')
+
 library(tidyverse)
+library(ggmap)
+library(sf)
+library(maptools)
+library(gridExtra)
+library(grid)
+# library(bnlearn)
+library(ggnetwork)
+
+data(wqmtch)
+data(wqdat)
+data(wqstat)
+data(reststat)
+data(restdat)
 @
 
 % get online bib file
@@ -159,8 +180,8 @@ Our experience using the open science workflow to inform restoration projects in
 Can we use disparate data to prioritize future restoration projects aimed at improving water quality? \\~\\
 \begin{itemize}
 \item<+-> \emtxt{Synthesize} data in space and time to evaluate cumulative effects of restoration projects\\~\\
-\item<+-> \emtxt{Develop} a Bayesian Decision Network with empirical observations to evaluate likelihood of potential outcomes \\~\\
-\item<+-> \emtxt{Apply} the Decision Network to guide expectations for future restoration projects
+\item<+-> \emtxt{Develop} a decision support tool with empirical observations to evaluate likelihood of potential outcomes \\~\\
+\item<+-> \emtxt{Apply} the tool to guide expectations for future restoration projects
 \end{itemize}
 \end{frame}
 
@@ -170,8 +191,8 @@ Can we use disparate data to prioritize future restoration projects aimed at imp
 \begin{column}{0.5\textwidth}
 \onslide<+->
 \begin{center}
-\includegraphics[width=0.7\textwidth]{fig/TB_Algae.png}\\~\\
-\includegraphics[width=0.7\textwidth]{fig/post_rest_sh.jpg}\\~\\
+\fbox{\includegraphics[width=0.7\textwidth]{fig/TB_Algae.png}}\\~\\
+\fbox{\includegraphics[width=0.7\textwidth]{fig/post_rest_sh.jpg}}\\~\\
 \end{center}
 \end{column}
 \begin{column}{0.5\textwidth}
@@ -184,7 +205,7 @@ Can we use disparate data to prioritize future restoration projects aimed at imp
 \onslide<+->
 \emtxt{Present:}
 \begin{itemize}
-\item 2016 seagrass at ~17k ha {\footnotesize \cite{Sherwood17}}
+\item 2016 seagrass at \textasciitilde 17k ha {\footnotesize \cite{Sherwood17}}
 \item Reductions in nutrient load, chlorophyll
 \item Increase in water clarity {\footnotesize \cite{Morrison06,Beck17c}}
 \end{itemize}
@@ -203,7 +224,7 @@ Can we use disparate data to prioritize future restoration projects aimed at imp
 \end{column}
 \begin{column}{0.5\textwidth}
 \begin{itemize}
-\item \emtxt{Water quality} monitoring dataset - 1974 to present, ~ 500 obs. per site \\~\\
+\item \emtxt{Water quality} monitoring dataset - 1974 to present, \textasciitilde 500 obs. per site \\~\\
 \item<+-> \emtxt{Restoration projects} dataset - 500 projects since 1971, habitat and water infrastructure projects
 \end{itemize}
 \end{column}
@@ -215,8 +236,423 @@ Despite considerable \emtxt{investments} in restoration, \emtxt{effectiveness ev
 \end{frame}
 
 %%%%%%
+\begin{frame}[t]{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\emtxt{Task 1}: Can we empirically link 500 restoration projects to chlorophyll changes at water quality stations over a forty year period? 
+\vfill
+\centerline{\includegraphics[width=0.65\textwidth]{fig/tidyverse.png}}
+\end{frame}
+
+<<echo = F, results = 'hide', cache = T>>=
+##
+# plots
+
+# combine lat/lon for the plot
+toplo <- wqmtch %>%
+  left_join(wqstat, by = 'stat') %>%
+  left_join(reststat, by = 'id') %>%
+  rename(
+    `Restoration\ngroup` = resgrp,
+    `Distance (dd)` = dist
+  )
+
+# restoration project grouping column
+resgrp <- 'top'
+restall <- left_join(restdat, reststat, by = 'id')
+names(restall)[names(restall) %in% resgrp] <- 'Restoration\ngroup'
+
+ext <- make_bbox(wqstat$lon, wqstat$lat, f = 0.1)
+map <- get_stamenmap(ext, zoom = 11, maptype = "toner-lite")
+
+# base map
+pbase <- ggmap(map) +
+  theme_bw() +
+  theme(
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    legend.position = 'none', 
+    plot.background = element_rect(fill = 'transparent', colour = NA)
+  )
+
+##
+# restoration, wq
+p <- pbase +
+  geom_point(data = reststat, aes(x = lon, y = lat), size = 4, pch = 21, fill = 'grey', alpha = 0.8) +
+geom_point(data = wqstat, aes(x = lon, y = lat), size = 3, pch = 16, color = 'black', alpha = 0.8)
+
+pdf('fig/clomap1.pdf', bg = 'transparent', family = 'serif', width = 4, height = 5)
+p
+dev.off()
+
+##
+# restoration by group, wq
+pbase <- pbase +
+  geom_point(data = restall, aes(x = lon, y = lat, fill = `Restoration\ngroup`), size = 4, pch = 21, alpha = 0.8) +
+geom_point(data = wqstat, aes(x = lon, y = lat), size = 3, pch = 16, color = 'black', alpha = 0.8)
+
+pdf('fig/clomap2.pdf', bg = 'transparent', family = 'serif', width = 4, height = 5)
+pbase
+dev.off()
+
+##
+# closest restoration, by group
+
+toplo1 <- filter(toplo, rnk %in% 1)
+
+p <- pbase +
+  geom_segment(data = toplo1, aes(x = lon.x, y = lat.x, xend = lon.y, yend = lat.y, alpha = -`Distance (dd)`, linetype = `Restoration\ngroup`), size = 1)
+
+pdf('fig/clomap3.pdf', bg = 'transparent', family = 'serif', width = 4, height = 5)
+p
+dev.off()
+
+##
+# closest two restoration, by group
+
+toplo2 <- filter(toplo, rnk %in% 1:2)
+
+p <- pbase +
+  geom_segment(data = toplo2, aes(x = lon.x, y = lat.x, xend = lon.y, yend = lat.y, alpha = -`Distance (dd)`, linetype = `Restoration\ngroup`), size = 1)
+
+pdf('fig/clomap4.pdf', bg = 'transparent', family = 'serif', width = 4, height = 5)
+p
+dev.off()
+
+##
+# closest all restoration, by group
+
+toplo3 <- toplo
+
+p <- pbase +
+  geom_segment(data = toplo3, aes(x = lon.x, y = lat.x, xend = lon.y, yend = lat.y, alpha = -`Distance (dd)`, linetype = `Restoration\ngroup`), size = 1)
+
+pdf('fig/clomap5.pdf', bg = 'transparent', family = 'serif', width = 4, height = 5)
+p
+dev.off()
+@
+
+%%%%%%
 \begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
-Empirical relationship fed into decision support tool
+\onslide<1->
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{overprint}
+\begin{figure}
+\centering
+\includegraphics<1>[width=\textwidth]{fig/clomap1.pdf}
+\includegraphics<2>[width=\textwidth]{fig/clomap2.pdf}
+\includegraphics<3>[width=\textwidth]{fig/clomap3.pdf}
+\includegraphics<4->[width=\textwidth]{fig/clomap5.pdf}
+\end{figure}
+\end{overprint}
+\end{column}
+\begin{column}{0.5\textwidth}
+\onslide<1->
+Can we link 500 restoration projects to chlorophyll changes over a forty year period? \\~\\
+\begin{itemize}
+\item<2-> Consider an effect of restoration \emtxt{site type}? \\~\\
+\item<3-> Consider \emtxt{distance} of sites from water quality stations? \\~\\
+\item<4-> Consider \emtxt{cumulative effects}? \\~\\
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+<<echo = F, results = 'hide'>>=
+ptplo <- dplyr::filter(toplo, stat %in% 7 & rnk %in% c(1:2)) %>%
+  mutate(
+    id = factor(id, levels = as.character(id), labels = c('hab1', 'hab2', 'wtr1', 'wtr2'))
+  )
+
+p <- ggplot(ptplo) +
+  geom_segment(aes(x = lon.x, y = lat.x, xend = lon.y, yend = lat.y, alpha = -`Distance (dd)`, linetype = `Restoration\ngroup`), size = 2) +
+  geom_point(aes(x = lon.y, y = lat.y, fill = `Restoration\ngroup`), size = 8, pch = 21, alpha = 0.8) +
+geom_point(aes(x = lon.x, y = lat.x), size = 6, pch = 16, color = 'black', alpha = 0.8) +
+  theme_minimal() +
+  theme(line = element_blank(),
+        text = element_blank(),
+        title = element_blank(),
+        legend.position = 'none',
+        plot.background = element_rect(fill = 'transparent', colour = NA)
+        )
+
+pdf('fig/ptplo.pdf', bg = 'transparent', family = 'serif', width = 3, height = 3)
+p
+dev.off()
+
+levs <- c('wq', 'hab1', 'hab2', 'wtr1', 'wtr2')
+
+tmdf1 <- list(
+  wq = c(1974, 2016),
+  wtr1 = 1996,
+  wtr2 = 1980,
+  hab1 = 1986,
+  hab2 = 2009
+  ) %>%
+  enframe %>%
+  unnest %>%
+  mutate(
+    name = factor(name, levels = levs),
+    grp = gsub('[0-9]$', '', name),
+    x = factor('wq')
+  )
+
+p <- ggplot(tmdf1, aes(x = name, y = value, group = name)) +
+  geom_path(size = 1, lineend = 'butt') +
+  coord_flip() +
+  geom_point(data = filter(tmdf1, !name %in% 'wq'), aes(fill = grp), pch = 21, size = 3) +
+  theme_bw() +
+  theme(line = element_blank(),
+        title = element_blank(),
+        legend.position = 'none',
+        plot.background = element_rect(fill = 'transparent', colour = NA),
+        panel.background = element_rect(fill = 'transparent', colour = NA)
+        )
+
+pdf('fig/tmplo1.pdf', bg = 'transparent', family = 'serif', width = 7, height = 1.8)
+p
+dev.off()
+
+tmdf2 <- list(
+  wq = c(1974, 2016),
+  wtr1 = c(1991, 1996, 2001),
+  wtr2 = c(1975, 1980, 1985),
+  hab1 = c(1981, 1986, 1991),
+  hab2 = c(2004, 2009, 2014)
+  ) %>%
+  enframe %>%
+  unnest %>%
+  mutate(
+    name = factor(name, levels = levs),
+    grp = gsub('[0-9]$', '', name)
+  )
+
+tmdf3 <- data.frame(
+  Before = c(1974, 1981, 2004, 1991, 1975),
+  After = c(2016, 1991, 2014, 2001, 1985)
+  ) %>%
+  mutate(
+    name = factor(levs, levels = levs)
+  )
+
+p <- ggplot(tmdf1, aes(x = name, y = value, group = name)) +
+  geom_path(data = tmdf2, aes(x = name, y = value, group = name), size = 1) +
+  geom_path(size = 1, lineend = 'butt') +
+  geom_text(data = filter(tmdf3, !name %in% 'wq'), aes(x = name, y = Before),
+            label = 'Before', vjust = -0.5, size = 3) +
+  geom_text(data = filter(tmdf3, !name %in% 'wq'), aes(x = name, y = After),
+            label = 'After', vjust = -0.5, size = 3) +
+  coord_flip() +
+  geom_point(data = filter(tmdf1, !name %in% 'wq'), aes(fill = grp), pch = 21, size = 3) +
+  theme_bw() +
+  theme(line = element_blank(),
+        title = element_blank(),
+        legend.position = 'none',
+        plot.background = element_rect(fill = 'transparent', colour = NA),
+        panel.background = element_rect(fill = 'transparent', colour = NA)
+        )
+
+pdf('fig/tmplo2.pdf', bg = 'transparent', family = 'serif', width = 7, height = 1.8)
+p
+dev.off()
+
+tmdf4 <- list(
+  wq = c(1974, 2016),
+  wtr1 = c(1991, 2001),
+  wtr2 = c(1975, 1985),
+  hab1 = c(1981, 1991),
+  hab2 = c(2004, 2014)
+  ) %>%
+  enframe %>%
+  unnest %>%
+  mutate(
+    name = factor(name, levels = levs),
+    grp = gsub('[0-9]$', '', name),
+    x = factor('wq')
+  )
+
+p <- ggplot(tmdf1, aes(x = name, y = value, group = name)) +
+  geom_path(data = tmdf2, aes(x = name, y = value, group = name), size = 1) +
+  geom_segment(data = tmdf4, aes(x = x, y = value, xend = name, yend = value), linetype = 'dashed') +
+  geom_segment(data = tmdf1, aes(x = x, y = value, xend = name, yend = value), color = 'grey', linetype = 'dashed') +
+  geom_text(data = filter(tmdf3, !name %in% 'wq'), aes(x = name, y = Before),
+            label = 'Before', vjust = -0.5, size = 3) +
+  geom_text(data = filter(tmdf3, !name %in% 'wq'), aes(x = name, y = After),
+            label = 'After', vjust = -0.5, size = 3) +
+  geom_path(size = 1, lineend = 'butt') +
+  coord_flip() +
+  geom_point(data = filter(tmdf1, !name %in% 'wq'), aes(fill = grp), pch = 21, size = 3) +
+  theme_bw() +
+  theme(line = element_blank(),
+        title = element_blank(),
+        legend.position = 'none',
+        plot.background = element_rect(fill = 'transparent', colour = NA),
+        panel.background = element_rect(fill = 'transparent', colour = NA)
+        )
+
+pdf('fig/tmplo3.pdf', bg = 'transparent', family = 'serif', width = 7, height = 1.8)
+p
+dev.off()
+@
+
+%%%%%%
+\begin{frame}[t]{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\onslide<1->
+WQ and restoration sites: \emtxt{spatial join}
+\begin{figure}
+\centering
+\includegraphics<1->[width=0.16\textwidth]{fig/ptplo.pdf}
+\end{figure}
+\begin{overprint}
+\onslide<2>
+WQ and restoration sites: \emtxt{temporal join}
+\begin{figure}
+\centering
+\includegraphics<2>[width=\textwidth]{fig/tmplo1.pdf}
+\end{figure}
+\onslide<3>
+WQ and restoration sites: \emtxt{temporal join, before/after}
+\begin{figure}
+\centering
+\includegraphics<3>[width=\textwidth]{fig/tmplo2.pdf}
+\end{figure}
+\onslide<4>
+WQ and restoration sites: \emtxt{temporal join, before/after, slice}
+\begin{figure}
+\centering
+\includegraphics<4>[width=\textwidth]{fig/tmplo3.pdf}
+\end{figure}
+\end{overprint}
+\end{frame}
+
+<<cache = T, results = 'hide'>>=
+mtch <- 5
+yrdf <- 10
+resgrp <- 'top'
+
+# get sub data, restoration sites
+restdat_sub <- restdat %>% 
+  filter(date < 1996)
+reststat_sub <- reststat %>% 
+  filter(id %in% restdat_sub$id)
+
+# get conditional probability tables
+allchg_pre <- get_all(restdat_sub, reststat_sub, wqdat, wqstat,
+                      mtch = mtch, yrdf = yrdf, resgrp = resgrp, qts = c(0.5), lbs = c('lo', 'hi'))
+
+toplo <- allchg_pre[[1]] %>% 
+  dplyr::select(hab, wtr, cval, salev) %>% 
+  rename(
+    chval = cval, 
+    Salinity = salev
+    ) %>% 
+  mutate(
+    hab = factor(hab, levels = c('hab_bef', 'hab_aft'), labels = c('Before', 'After')),
+    wtr = factor(wtr, levels = c('wtr_bef', 'wtr_aft'), labels = c('Before', 'After'))
+  )
+
+lab <- expression(paste("Chl-a (", italic(mu), "g ", L^-1, ")"))
+
+p1 <- ggplot(data = toplo, aes(x = chval, y = ..density..)) +
+  geom_density(adjust = 2, colour = NA, alpha = 0.8, fill = 'grey') +
+  facet_grid(hab ~ wtr) +
+  theme_bw(base_family = 'serif') +
+  theme(
+    strip.background = element_blank(), 
+    legend.position = c(0.9, 0.85), 
+    panel.background = element_rect(fill = 'transparent', colour = NA),
+    plot.background = element_rect(fill = 'transparent', colour = NA),
+    legend.background = element_rect(fill = 'transparent', colour = NA)
+  ) +
+  scale_x_continuous(lab) +
+  scale_y_continuous('Density')
+
+grb <- gpar(cex = 0.8, family = 'serif')
+
+pdf('fig/dens1.pdf', bg = 'transparent', family = 'serif', width = 7, height = 4)
+grid.arrange(p1, 
+             top = textGrob('Water projects', gp = grb), 
+             right = textGrob('Habitat projects', rot = 270, gp = grb) 
+)
+dev.off()
+
+p2 <- ggplot(data = toplo, aes(x = chval, y = ..density.., fill = Salinity)) +
+  geom_density(adjust = 2, colour = NA, alpha = 0.9) +
+  facet_grid(hab ~ wtr) +
+  theme_bw(base_family = 'serif') +
+  theme(
+    strip.background = element_blank(), 
+    legend.position = c(0.9, 0.85), 
+    panel.background = element_rect(fill = 'transparent', colour = NA),
+    plot.background = element_rect(fill = 'transparent', colour = NA),
+    legend.background = element_rect(fill = 'transparent', colour = NA)
+  ) +
+  scale_fill_manual(values = RColorBrewer::brewer.pal(9, 'Paired')[c(1, 5)]) +
+  scale_x_continuous(lab) +
+  scale_y_continuous('Density')
+
+pdf('fig/dens2.pdf', bg = 'transparent', family = 'serif', width = 7, height = 4)
+grid.arrange(p2, 
+             top = textGrob('Water projects', gp = grb), 
+             right = textGrob('Habitat projects', rot = 270, gp = grb) 
+             )
+dev.off()
+@
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\onslide<1->
+For \emtxt{many} water quality stations matched to \emtxt{many} restoration sites...\\~\\
+\begin{overprint}
+\begin{figure}
+\centering
+\includegraphics<1>[width = \textwidth]{fig/dens1.pdf}
+\includegraphics<2>[width = \textwidth]{fig/dens2.pdf}
+\end{figure}
+\end{overprint}
+\end{frame}
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\onslide<1->
+What is the probability of low/high chlorophyll given other events?\\~\\
+\begin{center}
+$P\left(Chl \mid Event\right) = \frac{P\left(Event \mid Chl\right) \cdot P\left(Chl \right)}{P \left(Event\right)}$ \\~\\
+\end{center}
+\onslide<2->
+\begin{itemize}
+\item Do water quality conditions differ by \emtxt{restoration type}?\\~\\
+\item Does it differ by low/high \emtxt{salinity} as a natural covariate?\\~\\
+\end{itemize}
+\onslide<3->
+\begin{center}
+\emtxt{Bayesian models let us evaluate likelihood of potential outcomes given conditional distributions}
+\end{center}
+\end{frame}
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+<<>>=
+net <- bnlearn::model2network("[Habitat][Water][Salinity|Habitat:Water][Chl-a|Habitat:Water:Salinity]")
+
+mat <- bnlearn::amat(net)
+# fittedBN <- bn.fit(net, data = toplo)
+# fittedBN$chlev
+
+library(ggnetwork)
+library(network)
+n <- network(mat, directed = T)
+
+n %v% "family" <- colnames(mat)
+
+n <-   ggnetwork(n, layout = 'hall')
+
+ggplot(n, aes(x = x, y = y, xend = xend, yend = yend), arrow.gap = 0.05) +
+  geom_edges(arrow = arrow(length = unit(6, "pt"), type = "closed")) +
+  geom_nodes(aes(fill = family), size = 8, pch = 21) +
+  theme_blank()
+
+@
+
 \end{frame}
 
 %%%%%%

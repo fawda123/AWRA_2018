@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.28)  9 APR 2018 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.28)  10 APR 2018 18:01
 entering extended mode
 **./AWRA_2018.tex
 (AWRA_2018.tex
@@ -1678,64 +1678,405 @@ e 236.
  [14
 
 ]
+<fig/tidyverse.png, id=217, 495.7722pt x 357.9774pt>
+File: fig/tidyverse.png Graphic file (type png)
+<use fig/tidyverse.png>
+Package pdftex.def Info: fig/tidyverse.png  used on input line 243. on input li
+ne 243.
+Package pdftex.def Info: Requested size: 222.48985pt x 160.65135pt on input lin
+e 243.
 File: fig/sccwrp_logo.png Graphic file (type png)
 <use fig/sccwrp_logo.png>
-Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 241. on input 
-line 241.
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 243. on input 
+line 243.
 Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
-241.
+243.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 241. on input lin
-e 241.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 243. on input lin
+e 243.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 241.
+e 243.
  [15
 
-]
-File: fig/scienceflow.png Graphic file (type png)
-<use fig/scienceflow.png>
-Package pdftex.def Info: fig/scienceflow.png  used on input line 249. on input 
-line 249.
-Package pdftex.def Info: Requested size: 290.9531pt x 176.10464pt on input line
- 249.
+ <./fig/tidyverse.png>]
+<fig/clomap1.pdf, id=225, pagebox=cropbox, 289.08pt x 361.35pt>
+File: fig/clomap1.pdf Graphic file (type pdf)
+<use fig/clomap1.pdf>
+Package pdftex.def Info: fig/clomap1.pdf  used on input line 272. on input line
+ 272.
+Package pdftex.def Info: Requested size: 171.14764pt x 213.93349pt on input lin
+e 272.
 File: fig/sccwrp_logo.png Graphic file (type png)
 <use fig/sccwrp_logo.png>
-Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 249. on input 
-line 249.
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 272. on input 
+line 272.
 Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
-249.
+272.
+
+Overfull \vbox (37.19202pt too high) detected at line 272
+ []
+
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 249. on input lin
-e 249.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 272. on input lin
+e 272.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 249.
- [16
+e 272.
+[16
+
+ <./fig/clomap1.pdf>]
+<fig/clomap2.pdf, id=235, pagebox=cropbox, 289.08pt x 361.35pt>
+File: fig/clomap2.pdf Graphic file (type pdf)
+<use fig/clomap2.pdf>
+Package pdftex.def Info: fig/clomap2.pdf  used on input line 272. on input line
+ 272.
+Package pdftex.def Info: Requested size: 171.14764pt x 213.93349pt on input lin
+e 272.
+File: fig/sccwrp_logo.png Graphic file (type png)
+<use fig/sccwrp_logo.png>
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 272. on input 
+line 272.
+Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
+272.
+
+Overfull \vbox (37.19202pt too high) detected at line 272
+ []
+
+File: fig/back_tmp.pdf Graphic file (type pdf)
+<use fig/back_tmp.pdf>
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 272. on input lin
+e 272.
+Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
+e 272.
+[17
+
+ <./fig/clomap2.pdf>]
+<fig/clomap3.pdf, id=252, pagebox=cropbox, 289.08pt x 361.35pt>
+File: fig/clomap3.pdf Graphic file (type pdf)
+<use fig/clomap3.pdf>
+Package pdftex.def Info: fig/clomap3.pdf  used on input line 272. on input line
+ 272.
+Package pdftex.def Info: Requested size: 171.14764pt x 213.93349pt on input lin
+e 272.
+File: fig/sccwrp_logo.png Graphic file (type png)
+<use fig/sccwrp_logo.png>
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 272. on input 
+line 272.
+Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
+272.
+
+Overfull \vbox (37.19202pt too high) detected at line 272
+ []
+
+File: fig/back_tmp.pdf Graphic file (type pdf)
+<use fig/back_tmp.pdf>
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 272. on input lin
+e 272.
+Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
+e 272.
+[18
+
+ <./fig/clomap3.pdf>]
+<fig/clomap5.pdf, id=335, pagebox=cropbox, 289.08pt x 361.35pt>
+File: fig/clomap5.pdf Graphic file (type pdf)
+<use fig/clomap5.pdf>
+Package pdftex.def Info: fig/clomap5.pdf  used on input line 272. on input line
+ 272.
+Package pdftex.def Info: Requested size: 171.14764pt x 213.93349pt on input lin
+e 272.
+File: fig/sccwrp_logo.png Graphic file (type png)
+<use fig/sccwrp_logo.png>
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 272. on input 
+line 272.
+Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
+272.
+
+Overfull \vbox (23.59201pt too high) detected at line 272
+ []
+
+File: fig/back_tmp.pdf Graphic file (type pdf)
+<use fig/back_tmp.pdf>
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 272. on input lin
+e 272.
+Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
+e 272.
+[19
+
+ <./fig/clomap5.pdf>]
+<fig/ptplo.pdf, id=521, pagebox=cropbox, 216.81pt x 216.81pt>
+File: fig/ptplo.pdf Graphic file (type pdf)
+<use fig/ptplo.pdf>
+Package pdftex.def Info: fig/ptplo.pdf  used on input line 304. on input line 3
+04.
+Package pdftex.def Info: Requested size: 54.7685pt x 54.76807pt on input line 3
+04.
+File: fig/sccwrp_logo.png Graphic file (type png)
+<use fig/sccwrp_logo.png>
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 304. on input 
+line 304.
+Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
+304.
+File: fig/back_tmp.pdf Graphic file (type pdf)
+<use fig/back_tmp.pdf>
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 304. on input lin
+e 304.
+Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
+e 304.
+ [20
+
+ <./fig/ptplo.pdf>]
+File: fig/ptplo.pdf Graphic file (type pdf)
+<use fig/ptplo.pdf>
+Package pdftex.def Info: fig/ptplo.pdf  used on input line 304. on input line 3
+04.
+Package pdftex.def Info: Requested size: 54.7685pt x 54.76807pt on input line 3
+04.
+<fig/tmplo1.pdf, id=536, pagebox=cropbox, 505.89pt x 129.48375pt>
+File: fig/tmplo1.pdf Graphic file (type pdf)
+<use fig/tmplo1.pdf>
+Package pdftex.def Info: fig/tmplo1.pdf  used on input line 304. on input line 
+304.
+Package pdftex.def Info: Requested size: 342.2953pt x 87.6131pt on input line 3
+04.
+File: fig/sccwrp_logo.png Graphic file (type png)
+<use fig/sccwrp_logo.png>
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 304. on input 
+line 304.
+Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
+304.
+File: fig/back_tmp.pdf Graphic file (type pdf)
+<use fig/back_tmp.pdf>
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 304. on input lin
+e 304.
+Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
+e 304.
+ [21
+
+ <./fig/tmplo1.pdf>]
+File: fig/ptplo.pdf Graphic file (type pdf)
+<use fig/ptplo.pdf>
+Package pdftex.def Info: fig/ptplo.pdf  used on input line 304. on input line 3
+04.
+Package pdftex.def Info: Requested size: 54.7685pt x 54.76807pt on input line 3
+04.
+<fig/tmplo2.pdf, id=548, pagebox=cropbox, 505.89pt x 129.48375pt>
+File: fig/tmplo2.pdf Graphic file (type pdf)
+<use fig/tmplo2.pdf>
+Package pdftex.def Info: fig/tmplo2.pdf  used on input line 304. on input line 
+304.
+Package pdftex.def Info: Requested size: 342.2953pt x 87.6131pt on input line 3
+04.
+File: fig/sccwrp_logo.png Graphic file (type png)
+<use fig/sccwrp_logo.png>
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 304. on input 
+line 304.
+Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
+304.
+File: fig/back_tmp.pdf Graphic file (type pdf)
+<use fig/back_tmp.pdf>
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 304. on input lin
+e 304.
+Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
+e 304.
+
+[22
+
+ <./fig/tmplo2.pdf>]
+File: fig/ptplo.pdf Graphic file (type pdf)
+<use fig/ptplo.pdf>
+Package pdftex.def Info: fig/ptplo.pdf  used on input line 304. on input line 3
+04.
+Package pdftex.def Info: Requested size: 54.7685pt x 54.76807pt on input line 3
+04.
+<fig/tmplo3.pdf, id=560, pagebox=cropbox, 505.89pt x 129.48375pt>
+File: fig/tmplo3.pdf Graphic file (type pdf)
+<use fig/tmplo3.pdf>
+Package pdftex.def Info: fig/tmplo3.pdf  used on input line 304. on input line 
+304.
+Package pdftex.def Info: Requested size: 342.2953pt x 87.6131pt on input line 3
+04.
+File: fig/sccwrp_logo.png Graphic file (type png)
+<use fig/sccwrp_logo.png>
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 304. on input 
+line 304.
+Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
+304.
+File: fig/back_tmp.pdf Graphic file (type pdf)
+<use fig/back_tmp.pdf>
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 304. on input lin
+e 304.
+Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
+e 304.
+ [23
+
+ <./fig/tmplo3.pdf>]
+<fig/dens1.pdf, id=572, pagebox=cropbox, 505.89pt x 289.08pt>
+File: fig/dens1.pdf Graphic file (type pdf)
+<use fig/dens1.pdf>
+Package pdftex.def Info: fig/dens1.pdf  used on input line 319. on input line 3
+19.
+Package pdftex.def Info: Requested size: 342.2953pt x 195.60136pt on input line
+ 319.
+File: fig/sccwrp_logo.png Graphic file (type png)
+<use fig/sccwrp_logo.png>
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 319. on input 
+line 319.
+Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
+319.
+
+Overfull \vbox (33.0599pt too high) detected at line 319
+ []
+
+File: fig/back_tmp.pdf Graphic file (type pdf)
+<use fig/back_tmp.pdf>
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 319. on input lin
+e 319.
+Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
+e 319.
+[24
+
+ <./fig/dens1.pdf>]
+<fig/dens2.pdf, id=588, pagebox=cropbox, 505.89pt x 289.08pt>
+File: fig/dens2.pdf Graphic file (type pdf)
+<use fig/dens2.pdf>
+Package pdftex.def Info: fig/dens2.pdf  used on input line 319. on input line 3
+19.
+Package pdftex.def Info: Requested size: 342.2953pt x 195.60136pt on input line
+ 319.
+File: fig/sccwrp_logo.png Graphic file (type png)
+<use fig/sccwrp_logo.png>
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 319. on input 
+line 319.
+Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
+319.
+
+Overfull \vbox (19.4599pt too high) detected at line 319
+ []
+
+File: fig/back_tmp.pdf Graphic file (type pdf)
+<use fig/back_tmp.pdf>
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 319. on input lin
+e 319.
+Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
+e 319.
+[25
+
+ <./fig/dens2.pdf>]
+File: fig/sccwrp_logo.png Graphic file (type png)
+<use fig/sccwrp_logo.png>
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 337. on input 
+line 337.
+Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
+337.
+File: fig/back_tmp.pdf Graphic file (type pdf)
+<use fig/back_tmp.pdf>
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 337. on input lin
+e 337.
+Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
+e 337.
+ [26
 
 ]
 File: fig/sccwrp_logo.png Graphic file (type png)
 <use fig/sccwrp_logo.png>
-Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 260. on input 
-line 260.
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 337. on input 
+line 337.
 Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
-260.
+337.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 260. on input lin
-e 260.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 337. on input lin
+e 337.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 260.
- [17
+e 337.
+ [27
+
+]
+File: fig/sccwrp_logo.png Graphic file (type png)
+<use fig/sccwrp_logo.png>
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 337. on input 
+line 337.
+Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
+337.
+File: fig/back_tmp.pdf Graphic file (type pdf)
+<use fig/back_tmp.pdf>
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 337. on input lin
+e 337.
+Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
+e 337.
+ [28
+
+]
+<fig/unnamed-chunk-5-1.pdf, id=625, pagebox=cropbox, 505.89pt x 505.89pt>
+File: fig/unnamed-chunk-5-1.pdf Graphic file (type pdf)
+<use fig/unnamed-chunk-5-1.pdf>
+Package pdftex.def Info: fig/unnamed-chunk-5-1.pdf  used on input line 350. on 
+input line 350.
+Package pdftex.def Info: Requested size: 342.2953pt x 342.3024pt on input line 
+350.
+File: fig/sccwrp_logo.png Graphic file (type png)
+<use fig/sccwrp_logo.png>
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 350. on input 
+line 350.
+Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
+350.
+
+Overfull \vbox (113.36092pt too high) detected at line 350
+ []
+
+File: fig/back_tmp.pdf Graphic file (type pdf)
+<use fig/back_tmp.pdf>
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 350. on input lin
+e 350.
+Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
+e 350.
+[29
+
+ <./fig/unnamed-chunk-5-1.pdf>]
+File: fig/scienceflow.png Graphic file (type png)
+<use fig/scienceflow.png>
+Package pdftex.def Info: fig/scienceflow.png  used on input line 358. on input 
+line 358.
+Package pdftex.def Info: Requested size: 290.9531pt x 176.10464pt on input line
+ 358.
+File: fig/sccwrp_logo.png Graphic file (type png)
+<use fig/sccwrp_logo.png>
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 358. on input 
+line 358.
+Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
+358.
+File: fig/back_tmp.pdf Graphic file (type pdf)
+<use fig/back_tmp.pdf>
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 358. on input lin
+e 358.
+Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
+e 358.
+ [30
+
+]
+File: fig/sccwrp_logo.png Graphic file (type png)
+<use fig/sccwrp_logo.png>
+Package pdftex.def Info: fig/sccwrp_logo.png  used on input line 369. on input 
+line 369.
+Package pdftex.def Info: Requested size: 25.49634pt x 17.51305pt on input line 
+369.
+File: fig/back_tmp.pdf Graphic file (type pdf)
+<use fig/back_tmp.pdf>
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 369. on input lin
+e 369.
+Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
+e 369.
+ [31
 
 ] (AWRA_2018.bbl)
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 269. on input lin
-e 269.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 378. on input lin
+e 378.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 269.
- [18
+e 378.
+ [32
 
 ]
 \tf@nav=\write6
@@ -1747,36 +2088,38 @@ e 269.
 \tf@snm=\write8
 \openout8 = `AWRA_2018.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 380.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 380.
 
 (AWRA_2018.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 380.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 380.
 Package rerunfilecheck Info: File `AWRA_2018.out' has not changed.
 (rerunfilecheck)             Checksum: 5276EC5092E9C422876015BE063573A5;92.
  ) 
 Here is how much of TeX's memory you used:
- 33663 strings out of 493312
- 691151 string characters out of 3138869
- 779149 words of memory out of 3000000
- 36561 multiletter control sequences out of 15000+200000
+ 33764 strings out of 493312
+ 692912 string characters out of 3138869
+ 780149 words of memory out of 3000000
+ 36622 multiletter control sequences out of 15000+200000
  541199 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,15n,96p,10412b,765s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 61i,15n,96p,10412b,790s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on AWRA_2018.pdf (18 pages, 7323279 bytes).
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on AWRA_2018.pdf (32 pages, 8507528 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 718 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 
