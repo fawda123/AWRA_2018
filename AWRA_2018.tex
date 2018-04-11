@@ -88,6 +88,9 @@
 % get online bib file
 
 
+% title fig
+
+
 \setbeamercolor{title}{fg=mypal5} % main title
 \setbeamercolor{frametitle}{fg=mypal4, bg=mypal2} % frame titles
 \setbeamercolor{structure}{fg=mypal4} % bottom banner
@@ -103,8 +106,15 @@
 
 \date{April 23, 2018}
 
-% \titlegraphic{
-% }
+\titlegraphic{
+\begin{minipage}{0.3\linewidth}
+\includegraphics[width=\linewidth]{fig/scienceflow.png}
+\end{minipage}
+\hfill
+\begin{minipage}{0.3\textwidth}
+\includegraphics[width=\linewidth]{fig/titlefig.pdf}
+\end{minipage}
+}
 
 %%%%%%
 \begin{frame}[shrink]
@@ -115,7 +125,7 @@
 \section{Background}
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Open science workflow}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Open science workflow}}}
 \centerline{\includegraphics[width=0.85\textwidth]{fig/scienceflow.png}}
 \vfill
 \tiny
@@ -123,7 +133,8 @@ Modified from \href{https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890
 \end{frame}
 
 %%%%%%
-\begin{frame}[t]{Final thoughts}{}
+\begin{frame}[t]{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Open science workflow}}}
+
 {\large \emtxt{Open Science for Synthesis: Gulf Research Program}}
 \begin{columns}
 \begin{column}{0.5\textwidth}
@@ -146,7 +157,8 @@ NCEAS, Santa Barbara, CA
 \end{frame}
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Open science workflow}}}
+\begin{frame}[t]{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Open science workflow}}}
+
 {\large \emtxt{Open Science for Synthesis: Gulf Research Program}}
 \begin{columns}
 \begin{column}{0.5\textwidth}
@@ -173,7 +185,7 @@ NCEAS, Santa Barbara, CA
 \end{frame}
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Today's talk}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Today's talk}}}
 \onslide<+->
 Our experience using the open science workflow to inform restoration projects in estuaries \\~\\
 \onslide<+->
@@ -186,7 +198,7 @@ Can we use disparate data to prioritize future restoration projects aimed at imp
 \end{frame}
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Tampa Bay - from gross to less gross}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Tampa Bay - from gross to less gross}}}
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \onslide<+->
@@ -214,7 +226,7 @@ Can we use disparate data to prioritize future restoration projects aimed at imp
 \end{frame}
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Tampa Bay - open data sources}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Tampa Bay - open data sources}}}
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \onslide<+->
@@ -224,8 +236,8 @@ Can we use disparate data to prioritize future restoration projects aimed at imp
 \end{column}
 \begin{column}{0.5\textwidth}
 \begin{itemize}
-\item \emtxt{Water quality} monitoring dataset - 1974 to present, \textasciitilde 500 obs. per site \\~\\
-\item<+-> \emtxt{Restoration projects} dataset - 500 projects since 1971, habitat and water infrastructure projects
+\item \emtxt{Water quality} monitoring dataset: 1974 to present, \textasciitilde 500 obs. per site \\~\\
+\item<+-> \emtxt{Restoration projects} dataset: \textasciitilde 500 projects since 1971, habitat and water infrastructure projects
 \end{itemize}
 \end{column}
 \end{columns}
@@ -236,7 +248,7 @@ Despite considerable \emtxt{investments} in restoration, \emtxt{effectiveness ev
 \end{frame}
 
 %%%%%%
-\begin{frame}[t]{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\begin{frame}[t]{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
 \emtxt{Task 1}: Can we empirically link 500 restoration projects to chlorophyll changes at water quality stations over a forty year period? 
 \vfill
 \centerline{\includegraphics[width=0.65\textwidth]{fig/tidyverse.png}}
@@ -245,7 +257,7 @@ Despite considerable \emtxt{investments} in restoration, \emtxt{effectiveness ev
 
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
 \onslide<1->
 \begin{columns}
 \begin{column}{0.5\textwidth}
@@ -274,7 +286,7 @@ Can we link 500 restoration projects to chlorophyll changes over a forty year pe
 
 
 %%%%%%
-\begin{frame}[t]{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\begin{frame}[t]{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
 \onslide<1->
 WQ and restoration sites: \emtxt{spatial join}
 \begin{figure}
@@ -306,7 +318,7 @@ WQ and restoration sites: \emtxt{temporal join, before/after, slice}
 
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
 \onslide<1->
 For \emtxt{many} water quality stations matched to \emtxt{many} restoration sites...\\~\\
 \begin{overprint}
@@ -319,7 +331,7 @@ For \emtxt{many} water quality stations matched to \emtxt{many} restoration site
 \end{frame}
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
 \onslide<1->
 What is the probability of low/high chlorophyll given other events?\\~\\
 \begin{center}
@@ -336,21 +348,140 @@ $P\left(Chl \mid Event\right) = \frac{P\left(Event \mid Chl\right) \cdot P\left(
 \end{center}
 \end{frame}
 
+
+
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\onslide<1->
+Using the \emtxt{conditional probabilities} from the \emtxt{empirical response}, what's the probability of low chlorophyll... 
+\begin{columns}
+\begin{column}{0.55\textwidth}
+\onslide<1->
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{fig/simpnet.pdf}
+\end{figure}
+\end{column}
+\begin{column}{0.45\textwidth}
+\begin{itemize}
+\item<2-> from water projects \\~\\
+\item<3-> from habitat projects \\~\\ 
+\item<4-> from all projects \\~\\
+\item<5-> by salinity regime
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
 
 
-{\centering \includegraphics[width=\maxwidth]{fig/unnamed-chunk-5-1} 
 
-}
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+All possible scenarios:
+\begin{figure}
+\centering
+\includegraphics[width = 0.9\textwidth]{fig/chlpr1.pdf}
+\end{figure}
+\end{frame}
 
 
 
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\onslide<1->
+\emtxt{Invidividual scenarios}: Probability of \textbf{high} chlorophyll\\~\\
+\begin{columns}
+\begin{column}{0.5\textwidth}
+Water projects: \\~\\
+\begin{itemize}
+\item Before: 53\% \\~\\
+\item After: 26\%
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+Habitat projects: \\~\\
+\begin{itemize}
+\item Before: 50\% \\~\\
+\item After: 50\%
+\end{itemize}
+\end{column}
+\end{columns}
+\onslide<2->
+\vspace{0.2in}
+\emtxt{Invidividual scenarios}: Probability of \textbf{low} chlorophyll\\~\\
+\begin{columns}
+\begin{column}{0.5\textwidth}
+Water projects: \\~\\
+\begin{itemize}
+\item Before: 46\% \\~\\
+\item After: 77\%
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+Habitat projects: \\~\\
+\begin{itemize}
+\item Before: 49\% \\~\\
+\item After: 51\%
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
 
+
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\onslide<1->
+\emtxt{Where is the sweet spot}? \\~\\
+Probability of low chlorophyll before/after \textbf{both project types} by \textbf{low/high salinity} \\~\\
+\onslide<2->
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\emtxt{Low} salinity: \\~\\
+\begin{itemize}
+\item Before both projects: 13\% \\~\\
+\item After both projects: 100\% \\~\\
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+\emtxt{High} salinity: \\~\\
+\begin{itemize}
+\item Before both projects: 69\% \\~\\
+\item After both projects: 75\% \\~\\
+\end{itemize}
+\end{column}
+\end{columns}
 \end{frame}
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Open science workflow}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\emtxt{Take home:} \\~\\
+\begin{itemize}
+\item<1-> Water infastructure projects had the largest effect
+\item<2-> Habitat projects had an effect but less so
+\item<3-> Effects most noticeable in low salinity zone
+\end{itemize}
+\vspace{0.2in}
+\onslide<4-> \emtxt{But...} \\~\\
+\begin{itemize}
+\item<5-> Depends on year, distance combinations
+\item<6-> This is a simple model
+\end{itemize}
+\end{frame}
+
+
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\emtxt{The holy grail:}
+\begin{figure}
+\centering
+\includegraphics[width = 0.9\textwidth]{fig/compnet.pdf}
+\end{figure}
+\end{frame}
+
+%%%%%%
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Open science workflow}}}
 \centerline{\includegraphics[width=0.85\textwidth]{fig/scienceflow.png}}
 \vfill
 \tiny
@@ -358,15 +489,55 @@ Modified from \cite{Hampton15}
 \end{frame}
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/sccwrp_logo.png}}}$\hspace{0.07in}\textbf{Open science workflow}}}
-What aspects of our project used and benefitted from open science?
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Open science workflow}}}
+\onslide<1->
+What aspects of our project used and benefitted from open science? \\~\\
 \begin{itemize}
 \item Early idea conception
 \item Long distance collaboration
 \item Transparent and reproducible analysis
 \end{itemize}
-\centerline{Teach a scientist to fish...}
+\vspace{0.1in}
+\begin{center}
+\includegraphics[trim={0 0 3cm 0},clip,width = 0.9\textwidth]{fig/openfig.png}
+\end{center}
+\vspace{0.1in}
+\onslide<2->
+\centerline{\emtxt{... but the circle is not complete}}
 \end{frame}
+
+%%%%%%
+\begin{frame}
+\emtxt{Acknowledgments}:\\~\\
+\begin{columns}
+\begin{column}{0.8\textwidth}
+{\footnotesize
+Research staff and employees at NCEAS: M. B. Jones, A. Budden, T. Neal, B. Mecum, C. Lortie, L. Wasser, J. Brun  \\~\\
+The Gulf Research Program \\~\\
+Field staff and data managers at Hillsborough County Environmental Protection Commission}\\~\\
+\end{column}
+\begin{column}{0.2\textwidth}
+\end{column}
+\end{columns}
+\vfill
+\emtxt{Funding sources and contact}:\\~\\
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\centerline{\includegraphics[width=\linewidth]{fig/nceas_full.png}}\\~\\
+\vspace{0.15in}
+\centerline{\includegraphics[width=0.6\linewidth]{fig/grplogo.png}}
+\end{column}
+\begin{column}{0.5\textwidth}
+\scriptsize
+\href{mailto:marcusb@sccwrp.org}{marcusb@sccwrp.org}, 7147553217\\~\\
+\includegraphics[width = 0.05\textwidth]{fig/git.png} GitHub (project): \href{https://github.com/fawda123/restorebayes}{https://github.com/fawda123/restorebayes}\\~\\
+\includegraphics[width = 0.05\textwidth]{fig/git.png} GitHub (presentation): \href{https://github.com/fawda123/AWRA_2018}{https://github.com/fawda123/AWRA\_2018}\\~\\
+\includegraphics[width = 0.05\textwidth]{fig/twitter.png} Twitter: @fawda123
+\end{column}
+\end{columns}
+\vspace{0.2in}
+\end{frame}
+
 
 %%%%%%
 \section{References}
