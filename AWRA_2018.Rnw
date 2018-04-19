@@ -17,6 +17,8 @@
 
 % macros
 \newcommand{\emtxt}[1]{\textbf{\textit{{\color{mypal4} #1}}}}
+\definecolor{mycol1}{rgb}{0.65,0.8,0.89}
+\definecolor{mycol2}{rgb}{0.98,0.6,0.6}
 
 % change font size for figure captions
 \setbeamerfont{caption}{size=\scriptsize}
@@ -232,7 +234,7 @@ Can we use disparate data to prioritize future restoration projects aimed at imp
 \begin{column}{0.5\textwidth}
 \onslide<+->
 \begin{center}
-\includegraphics[width=0.95\textwidth]{fig/tbrest_map.pdf}
+\includegraphics[width=0.95\textwidth]{fig/tbrest_map_abel1_1.pdf}
 \end{center}
 \end{column}
 \begin{column}{0.5\textwidth}
@@ -539,6 +541,8 @@ WQ and restoration sites: \emtxt{temporal join, before/after, slice}
 
 <<cache = T, results = 'hide'>>=
 
+RColorBrewer::brewer.pal(9, 'Paired')[c(1, 5)]
+
 mtch <- 5
 yrdf <- 10
 resgrp <- 'top'
@@ -624,14 +628,14 @@ For \emtxt{many} water quality stations matched to \emtxt{many} restoration site
 \end{figure}
 \end{overprint}
 \onslide<3>
-\begin{tikzpicture}[overlay]
-\draw[bend left=50,-latex,blue] (2.1, 6.07) to (6.85, 4.48);
-\draw[bend left=60,-latex,red] (3.26, 5.7) to (7.7, 3.45);
+\begin{tikzpicture}[overlay, line width=2pt]
+\draw[bend left=50,-latex,mycol1] (2.1, 6.07) to (6.85, 4.48);
+\draw[bend left=60,-latex,mycol2] (3.26, 5.7) to (7.7, 3.45);
 \end{tikzpicture}
 \end{frame}
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Building a decision support tool}}}
 \onslide<1->
 What is the probability of low/high chlorophyll given other events?\\~\\
 \begin{center}
@@ -686,7 +690,7 @@ dev.off()
 @
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Building a decision support tool}}}
 \onslide<1->
 Using the \emtxt{conditional probabilities} from the \emtxt{empirical response}, what's the probability of low chlorophyll... 
 \begin{columns}
@@ -784,7 +788,7 @@ dev.off()
 @
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Building a decision support tool}}}
 All possible scenarios:
 \begin{figure}
 \centering
@@ -828,7 +832,7 @@ wtrloaf <- cpquery(fittedBN,
 @
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Building a decision support tool}}}
 \onslide<1->
 \emtxt{Invidividual scenarios}: Probability of \textbf{high} chlorophyll\\~\\
 \begin{columns}
@@ -888,7 +892,7 @@ bothlohiaf <- cpquery(fittedBN,
 @
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Building a decision support tool}}}
 \onslide<1->
 \emtxt{Where is the sweet spot}? \\~\\
 Probability of low chlorophyll before/after \textbf{both project types} by \textbf{low/high salinity} \\~\\
@@ -912,7 +916,7 @@ Probability of low chlorophyll before/after \textbf{both project types} by \text
 \end{frame}
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Building a decision support tool}}}
 \emtxt{Take home:} \\~\\
 \begin{itemize}
 \item<1-> Water infastructure projects had the largest effect
@@ -965,7 +969,7 @@ dev.off()
 @
 
 %%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Data munging with open source tools}}}
+\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Building a decision support tool}}}
 \emtxt{The holy grail:}
 \begin{figure}
 \centering
