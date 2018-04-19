@@ -8,7 +8,6 @@
 \usepackage{tikz}
 \usetikzlibrary{decorations.pathreplacing}
 \usetikzlibrary{shapes,arrows,positioning,shadows}
-\usepackage{subfig}
 \usepackage{pgf}
 \usepackage{caption}
 
@@ -41,10 +40,6 @@ pdf('fig/back_tmp.pdf',bg = bg_col)
 frame()
 invisible(dev.off())
 @
-
-\tikzstyle{decision} = [diamond, draw, text width=6em, text badly centered, inner sep = 2pt, top color=white, bottom color=mypal3, drop shadow]
-\tikzstyle{block} = [rectangle, draw, text width=10em, text centered, rounded corners, minimum height=3em, minimum width=8em, top color = white, bottom color=mypal4,  drop shadow]
-\tikzstyle{declare} = [rectangle, draw, text width=10em, text centered, minimum height=3em, minimum width=8em, top color = white, bottom color=mypal5,  drop shadow]
 
 % knitr setup
 <<setup, include = F, cache = F>>=
@@ -188,34 +183,6 @@ NCEAS, Santa Barbara, CA
 \centerline{\fbox{\includegraphics[width = 0.65\textwidth]{fig/ossgrp.jpg}}}
 \end{column}
 \end{columns}
-\end{frame}
-
-%%%%%%
-\begin{frame}[t]{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Open science workflow}}}
-
-{\large \emtxt{Open Science for Synthesis: Gulf Research Program}}
-\begin{columns}
-\begin{column}{0.5\textwidth}
-July 10 - July 28, 2017\\
-NCEAS, Santa Barbara, CA 
-\end{column}
-\begin{column}{0.5\textwidth}
-\hfill \includegraphics[width = \textwidth]{fig/nceas_full.png}
-\end{column}
-\end{columns}
-\vspace{0.1in}
-\vfill
-\centerline{\url{https://nceas.github.io/oss-2017/lessons.html}}
-\begin{itemize}
-\item Collaboration modes and technologies, virtual collaboration
-\item Data management, preservation, and sharing
-\item Data manipulation, integration, and exploration
-\item Scientific workflows and reproducible research
-\item Programming using agile and sustainable software practices
-\item Data analysis and modeling
-\item Communicating results to broad communities
-\end{itemize}
-\vfill
 \end{frame}
 
 %%%%%%
@@ -653,9 +620,14 @@ For \emtxt{many} water quality stations matched to \emtxt{many} restoration site
 \begin{figure}
 \centering
 \includegraphics<1>[width = \textwidth]{fig/dens1.pdf}
-\includegraphics<2>[width = \textwidth]{fig/dens2.pdf}
+\includegraphics<2->[width = \textwidth]{fig/dens2.pdf}
 \end{figure}
 \end{overprint}
+\onslide<3>
+\begin{tikzpicture}[overlay]
+\draw[bend left=50,-latex,blue] (2.1, 6.07) to (6.85, 4.48);
+\draw[bend left=60,-latex,red] (3.26, 5.7) to (7.7, 3.45);
+\end{tikzpicture}
 \end{frame}
 
 %%%%%%

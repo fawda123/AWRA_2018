@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.28)  11 APR 2018 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.28)  18 APR 2018 17:54
 entering extended mode
 **./AWRA_2018.tex
 (AWRA_2018.tex
@@ -1216,10 +1216,7 @@ File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings.code.
 tex"
 File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
-))) ("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+))) ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
@@ -1239,39 +1236,26 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 )
-\c@KVtest=\count353
-\sf@farskip=\skip75
-\sf@captopadj=\dimen348
-\sf@capskip=\skip76
-\sf@nearskip=\skip77
-\c@subfigure=\count354
-\c@subfigure@save=\count355
-\c@depth=\count356
-\c@subtable=\count357
-\c@subtable@save=\count358
-\sf@top=\skip78
-\sf@bottom=\skip79
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\upquote\upquote.sty"
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 ) (AWRA_2018.aux)
 \openout1 = `AWRA_2018.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1309,16 +1293,16 @@ LaTeX Font Info:    ... okay on input line 100.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count359
-\scratchdimen=\dimen349
+\scratchcounter=\count353
+\scratchdimen=\dimen348
 \scratchbox=\box103
-\nofMPsegments=\count360
-\nofMParguments=\count361
+\nofMPsegments=\count354
+\nofMParguments=\count355
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count362
-\MPscratchDim=\dimen350
-\MPnumerator=\count363
-\makeMPintoPDFobject=\count364
+\MPscratchCnt=\count356
+\MPscratchDim=\dimen349
+\MPnumerator=\count357
+\makeMPintoPDFobject=\count358
 \everyMPtoPDFconversion=\toks51
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1335,7 +1319,7 @@ G,.JBIG2,.JB2,.eps]
 )
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box104
-Package hyperref Info: Link coloring OFF on input line 100.
+Package hyperref Info: Link coloring OFF on input line 95.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1343,11 +1327,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count365
+\c@section@level=\count359
 )
-LaTeX Info: Redefining \ref on input line 100.
-LaTeX Info: Redefining \pageref on input line 100.
-LaTeX Info: Redefining \nameref on input line 100.
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \nameref on input line 95.
 
 (AWRA_2018.out) (AWRA_2018.out)
 \@outlinefile=\write5
@@ -1379,18 +1363,17 @@ y-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
  (AWRA_2018.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 103.
+(hyperref)                setting the option has no effect on input line 98.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 123.
+LaTeX Font Info:    Try loading font information for U+msa on input line 118.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 123.
+LaTeX Font Info:    Try loading font information for U+msb on input line 118.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1398,1075 +1381,1078 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <fig/scienceflow.png, id=46, 640.794pt x 387.849pt>
 File: fig/scienceflow.png Graphic file (type png)
 <use fig/scienceflow.png>
-Package pdftex.def Info: fig/scienceflow.png  used on input line 123. on input 
-line 123.
+Package pdftex.def Info: fig/scienceflow.png  used on input line 118. on input 
+line 118.
 Package pdftex.def Info: Requested size: 102.68962pt x 62.1518pt on input line 
-123.
+118.
 <fig/titlefig.pdf, id=47, pagebox=cropbox, 505.89pt x 325.215pt>
 File: fig/titlefig.pdf Graphic file (type pdf)
 <use fig/titlefig.pdf>
-Package pdftex.def Info: fig/titlefig.pdf  used on input line 123. on input lin
-e 123.
+Package pdftex.def Info: fig/titlefig.pdf  used on input line 118. on input lin
+e 118.
 Package pdftex.def Info: Requested size: 102.68962pt x 66.01447pt on input line
- 123.
+ 118.
 
 
 Class beamer Warning: Frame text is shrunk by a factor of 0.4776 percent instea
-d of 0 percent on input line 123.
+d of 0 percent on input line 118.
 
 <fig/back_tmp.pdf, id=48, pagebox=cropbox, 505.89pt x 505.89pt>
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 123. on input lin
-e 123.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 118. on input lin
+e 118.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 123.
+e 118.
 [1
 
 {C:/Users/Marcus.SCCWRP2K/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <.
 /fig/back_tmp.pdf> <./fig/scienceflow.png> <./fig/titlefig.pdf>]
 File: fig/scienceflow.png Graphic file (type png)
 <use fig/scienceflow.png>
-Package pdftex.def Info: fig/scienceflow.png  used on input line 133. on input 
-line 133.
+Package pdftex.def Info: fig/scienceflow.png  used on input line 128. on input 
+line 128.
 Package pdftex.def Info: Requested size: 290.9531pt x 176.10464pt on input line
- 133.
+ 128.
 <fig/nceas_small.png, id=69, 301.125pt x 280.04625pt>
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 133. on input 
-line 133.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 128. on input 
+line 128.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-133.
+128.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 133. on input lin
-e 133.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 128. on input lin
+e 128.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 133.
+e 128.
  [2
 
  <./fig/nceas_small.png>]
 <fig/nceas_full.png, id=78, 643.40375pt x 129.48375pt>
 File: fig/nceas_full.png Graphic file (type png)
 <use fig/nceas_full.png>
-Package pdftex.def Info: fig/nceas_full.png  used on input line 157. on input l
-ine 157.
+Package pdftex.def Info: fig/nceas_full.png  used on input line 152. on input l
+ine 152.
 Package pdftex.def Info: Requested size: 171.14764pt x 34.44342pt on input line
- 157.
+ 152.
 <fig/gom.jpg, id=79, 2810.5pt x 2007.5pt>
 File: fig/gom.jpg Graphic file (type jpg)
 <use fig/gom.jpg>
-Package pdftex.def Info: fig/gom.jpg  used on input line 157. on input line 157
+Package pdftex.def Info: fig/gom.jpg  used on input line 152. on input line 152
 .
 Package pdftex.def Info: Requested size: 145.47653pt x 103.90355pt on input lin
-e 157.
+e 152.
 <fig/ossgrp.jpg, id=80, 308.352pt x 411.136pt>
 File: fig/ossgrp.jpg Graphic file (type jpg)
 <use fig/ossgrp.jpg>
-Package pdftex.def Info: fig/ossgrp.jpg  used on input line 157. on input line 
-157.
+Package pdftex.def Info: fig/ossgrp.jpg  used on input line 152. on input line 
+152.
 Package pdftex.def Info: Requested size: 111.24492pt x 148.32878pt on input lin
-e 157.
+e 152.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 157. on input 
-line 157.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 152. on input 
+line 152.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-157.
+152.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 157. on input lin
-e 157.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 152. on input lin
+e 152.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 157.
+e 152.
  [3
 
  <./fig/nceas_full.png> <./fig/gom.jpg> <./fig/ossgrp.jpg>]
-File: fig/nceas_full.png Graphic file (type png)
-<use fig/nceas_full.png>
-Package pdftex.def Info: fig/nceas_full.png  used on input line 185. on input l
-ine 185.
-Package pdftex.def Info: Requested size: 171.14764pt x 34.44342pt on input line
- 185.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 185. on input 
-line 185.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 165. on input 
+line 165.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-185.
+165.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 185. on input lin
-e 185.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 165. on input lin
+e 165.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 185.
+e 165.
 
 [4
 
 ]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 198. on input 
-line 198.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 165. on input 
+line 165.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-198.
+165.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 198. on input lin
-e 198.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 165. on input lin
+e 165.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 198.
+e 165.
  [5
 
 ]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 198. on input 
-line 198.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 165. on input 
+line 165.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-198.
+165.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 198. on input lin
-e 198.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 165. on input lin
+e 165.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 198.
+e 165.
  [6
 
 ]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 198. on input 
-line 198.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 165. on input 
+line 165.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-198.
+165.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 198. on input lin
-e 198.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 165. on input lin
+e 165.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 198.
+e 165.
  [7
 
 ]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 198. on input 
-line 198.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 165. on input 
+line 165.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-198.
+165.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 198. on input lin
-e 198.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 165. on input lin
+e 165.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 198.
+e 165.
  [8
 
 ]
-File: fig/nceas_small.png Graphic file (type png)
-<use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 198. on input 
-line 198.
-Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-198.
-File: fig/back_tmp.pdf Graphic file (type pdf)
-<use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 198. on input lin
-e 198.
-Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 198.
- [9
-
-]
-<fig/TB_Algae.png, id=130, 477.28313pt x 357.58594pt>
+<fig/TB_Algae.png, id=122, 477.28313pt x 357.58594pt>
 File: fig/TB_Algae.png Graphic file (type png)
 <use fig/TB_Algae.png>
-Package pdftex.def Info: fig/TB_Algae.png  used on input line 226. on input lin
-e 226.
+Package pdftex.def Info: fig/TB_Algae.png  used on input line 193. on input lin
+e 193.
 Package pdftex.def Info: Requested size: 119.80283pt x 89.75638pt on input line
- 226.
-<fig/post_rest_sh.jpg, id=131, 477.28313pt x 357.58594pt>
+ 193.
+<fig/post_rest_sh.jpg, id=123, 477.28313pt x 357.58594pt>
 File: fig/post_rest_sh.jpg Graphic file (type jpg)
 <use fig/post_rest_sh.jpg>
-Package pdftex.def Info: fig/post_rest_sh.jpg  used on input line 226. on input
- line 226.
+Package pdftex.def Info: fig/post_rest_sh.jpg  used on input line 193. on input
+ line 193.
 Package pdftex.def Info: Requested size: 119.80283pt x 89.75638pt on input line
- 226.
+ 193.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 226. on input 
-line 226.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 193. on input 
+line 193.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-226.
+193.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 226. on input lin
-e 226.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 193. on input lin
+e 193.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 226.
- [10
+e 193.
+ [9
 
  <./fig/TB_Algae.png> <./fig/post_rest_sh.jpg>]
 File: fig/TB_Algae.png Graphic file (type png)
 <use fig/TB_Algae.png>
-Package pdftex.def Info: fig/TB_Algae.png  used on input line 226. on input lin
-e 226.
+Package pdftex.def Info: fig/TB_Algae.png  used on input line 193. on input lin
+e 193.
 Package pdftex.def Info: Requested size: 119.80283pt x 89.75638pt on input line
- 226.
+ 193.
 File: fig/post_rest_sh.jpg Graphic file (type jpg)
 <use fig/post_rest_sh.jpg>
-Package pdftex.def Info: fig/post_rest_sh.jpg  used on input line 226. on input
- line 226.
+Package pdftex.def Info: fig/post_rest_sh.jpg  used on input line 193. on input
+ line 193.
 Package pdftex.def Info: Requested size: 119.80283pt x 89.75638pt on input line
- 226.
+ 193.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 226. on input 
-line 226.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 193. on input 
+line 193.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-226.
+193.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 226. on input lin
-e 226.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 193. on input lin
+e 193.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 226.
-
-[11
+e 193.
+ [10
 
 ]
 
 pdfTeX warning: pdflatex.exe (file ./fig/tbrest_map.pdf): PDF inclusion: found 
 PDF version <1.6>, but at most version <1.5> allowed
-<fig/tbrest_map.pdf, id=160, pagebox=cropbox, 614.295pt x 614.295pt>
+<fig/tbrest_map.pdf, id=152, pagebox=cropbox, 614.295pt x 614.295pt>
 File: fig/tbrest_map.pdf Graphic file (type pdf)
 <use fig/tbrest_map.pdf>
-Package pdftex.def Info: fig/tbrest_map.pdf  used on input line 248. on input l
-ine 248.
+Package pdftex.def Info: fig/tbrest_map.pdf  used on input line 215. on input l
+ine 215.
 Package pdftex.def Info: Requested size: 162.58974pt x 162.59055pt on input lin
-e 248.
+e 215.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 248. on input 
-line 248.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 215. on input 
+line 215.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-248.
+215.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 248. on input lin
-e 248.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 215. on input lin
+e 215.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 248.
-[12
+e 215.
+[11
 
  <./fig/tbrest_map.pdf>]
 File: fig/tbrest_map.pdf Graphic file (type pdf)
 <use fig/tbrest_map.pdf>
-Package pdftex.def Info: fig/tbrest_map.pdf  used on input line 248. on input l
-ine 248.
+Package pdftex.def Info: fig/tbrest_map.pdf  used on input line 215. on input l
+ine 215.
 Package pdftex.def Info: Requested size: 162.58974pt x 162.59055pt on input lin
-e 248.
+e 215.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 248. on input 
-line 248.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 215. on input 
+line 215.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-248.
+215.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 248. on input lin
-e 248.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 215. on input lin
+e 215.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 248.
- [13
+e 215.
+ [12
 
 ]
 File: fig/tbrest_map.pdf Graphic file (type pdf)
 <use fig/tbrest_map.pdf>
-Package pdftex.def Info: fig/tbrest_map.pdf  used on input line 248. on input l
-ine 248.
+Package pdftex.def Info: fig/tbrest_map.pdf  used on input line 215. on input l
+ine 215.
 Package pdftex.def Info: Requested size: 162.58974pt x 162.59055pt on input lin
-e 248.
+e 215.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 248. on input 
-line 248.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 215. on input 
+line 215.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-248.
+215.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 248. on input lin
-e 248.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 215. on input lin
+e 215.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 248.
- [14
+e 215.
+ [13
 
 ]
-<fig/tidyverse.png, id=220, 495.7722pt x 357.9774pt>
+<fig/tidyverse.png, id=212, 495.7722pt x 357.9774pt>
 File: fig/tidyverse.png Graphic file (type png)
 <use fig/tidyverse.png>
-Package pdftex.def Info: fig/tidyverse.png  used on input line 255. on input li
-ne 255.
+Package pdftex.def Info: fig/tidyverse.png  used on input line 222. on input li
+ne 222.
 Package pdftex.def Info: Requested size: 222.48985pt x 160.65135pt on input lin
-e 255.
+e 222.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 255. on input 
-line 255.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 222. on input 
+line 222.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-255.
+222.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 255. on input lin
-e 255.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 222. on input lin
+e 222.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 255.
- [15
+e 222.
+ [14
 
  <./fig/tidyverse.png>]
-<fig/clomap1.pdf, id=228, pagebox=cropbox, 289.08pt x 361.35pt>
+<fig/clomap1.pdf, id=220, pagebox=cropbox, 289.08pt x 361.35pt>
 File: fig/clomap1.pdf Graphic file (type pdf)
 <use fig/clomap1.pdf>
-Package pdftex.def Info: fig/clomap1.pdf  used on input line 284. on input line
- 284.
+Package pdftex.def Info: fig/clomap1.pdf  used on input line 251. on input line
+ 251.
 Package pdftex.def Info: Requested size: 171.14764pt x 213.93349pt on input lin
-e 284.
+e 251.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 284. on input 
-line 284.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 251. on input 
+line 251.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-284.
+251.
 
-Overfull \vbox (40.0457pt too high) detected at line 284
+Overfull \vbox (40.0457pt too high) detected at line 251
  []
 
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 284. on input lin
-e 284.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 251. on input lin
+e 251.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 284.
-[16
+e 251.
+[15
 
  <./fig/clomap1.pdf>]
-<fig/clomap2.pdf, id=245, pagebox=cropbox, 289.08pt x 361.35pt>
+<fig/clomap2.pdf, id=237, pagebox=cropbox, 289.08pt x 361.35pt>
 File: fig/clomap2.pdf Graphic file (type pdf)
 <use fig/clomap2.pdf>
-Package pdftex.def Info: fig/clomap2.pdf  used on input line 284. on input line
- 284.
+Package pdftex.def Info: fig/clomap2.pdf  used on input line 251. on input line
+ 251.
 Package pdftex.def Info: Requested size: 171.14764pt x 213.93349pt on input lin
-e 284.
+e 251.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 284. on input 
-line 284.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 251. on input 
+line 251.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-284.
+251.
 
-Overfull \vbox (40.0457pt too high) detected at line 284
+Overfull \vbox (40.0457pt too high) detected at line 251
  []
 
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 284. on input lin
-e 284.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 251. on input lin
+e 251.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 284.
-[17
+e 251.
+[16
 
  <./fig/clomap2.pdf>]
-<fig/clomap3.pdf, id=262, pagebox=cropbox, 289.08pt x 361.35pt>
+<fig/clomap3.pdf, id=254, pagebox=cropbox, 289.08pt x 361.35pt>
 File: fig/clomap3.pdf Graphic file (type pdf)
 <use fig/clomap3.pdf>
-Package pdftex.def Info: fig/clomap3.pdf  used on input line 284. on input line
- 284.
+Package pdftex.def Info: fig/clomap3.pdf  used on input line 251. on input line
+ 251.
 Package pdftex.def Info: Requested size: 171.14764pt x 213.93349pt on input lin
-e 284.
+e 251.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 284. on input 
-line 284.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 251. on input 
+line 251.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-284.
+251.
 
-Overfull \vbox (40.0457pt too high) detected at line 284
+Overfull \vbox (40.0457pt too high) detected at line 251
  []
 
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 284. on input lin
-e 284.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 251. on input lin
+e 251.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 284.
-[18
+e 251.
+[17
 
  <./fig/clomap3.pdf>]
-<fig/clomap5.pdf, id=345, pagebox=cropbox, 289.08pt x 361.35pt>
+<fig/clomap5.pdf, id=337, pagebox=cropbox, 289.08pt x 361.35pt>
 File: fig/clomap5.pdf Graphic file (type pdf)
 <use fig/clomap5.pdf>
-Package pdftex.def Info: fig/clomap5.pdf  used on input line 284. on input line
- 284.
+Package pdftex.def Info: fig/clomap5.pdf  used on input line 251. on input line
+ 251.
 Package pdftex.def Info: Requested size: 171.14764pt x 213.93349pt on input lin
-e 284.
+e 251.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 284. on input 
-line 284.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 251. on input 
+line 251.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-284.
+251.
 
-Overfull \vbox (26.4457pt too high) detected at line 284
+Overfull \vbox (26.4457pt too high) detected at line 251
  []
 
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 284. on input lin
-e 284.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 251. on input lin
+e 251.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 284.
-[19
+e 251.
+[18
 
  <./fig/clomap5.pdf>]
-<fig/ptplo.pdf, id=531, pagebox=cropbox, 216.81pt x 216.81pt>
+<fig/ptplo.pdf, id=522, pagebox=cropbox, 216.81pt x 216.81pt>
 File: fig/ptplo.pdf Graphic file (type pdf)
 <use fig/ptplo.pdf>
-Package pdftex.def Info: fig/ptplo.pdf  used on input line 316. on input line 3
-16.
-Package pdftex.def Info: Requested size: 54.7685pt x 54.76807pt on input line 3
-16.
+Package pdftex.def Info: fig/ptplo.pdf  used on input line 283. on input line 2
+83.
+Package pdftex.def Info: Requested size: 54.7685pt x 54.76807pt on input line 2
+83.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 316. on input 
-line 316.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 283. on input 
+line 283.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-316.
+283.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 316. on input lin
-e 316.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 283. on input lin
+e 283.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 316.
- [20
+e 283.
+ [19
 
  <./fig/ptplo.pdf>]
 File: fig/ptplo.pdf Graphic file (type pdf)
 <use fig/ptplo.pdf>
-Package pdftex.def Info: fig/ptplo.pdf  used on input line 316. on input line 3
-16.
-Package pdftex.def Info: Requested size: 54.7685pt x 54.76807pt on input line 3
-16.
-<fig/tmplo1.pdf, id=546, pagebox=cropbox, 505.89pt x 129.48375pt>
+Package pdftex.def Info: fig/ptplo.pdf  used on input line 283. on input line 2
+83.
+Package pdftex.def Info: Requested size: 54.7685pt x 54.76807pt on input line 2
+83.
+<fig/tmplo1.pdf, id=538, pagebox=cropbox, 505.89pt x 129.48375pt>
 File: fig/tmplo1.pdf Graphic file (type pdf)
 <use fig/tmplo1.pdf>
-Package pdftex.def Info: fig/tmplo1.pdf  used on input line 316. on input line 
-316.
-Package pdftex.def Info: Requested size: 342.2953pt x 87.6131pt on input line 3
-16.
+Package pdftex.def Info: fig/tmplo1.pdf  used on input line 283. on input line 
+283.
+Package pdftex.def Info: Requested size: 342.2953pt x 87.6131pt on input line 2
+83.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 316. on input 
-line 316.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 283. on input 
+line 283.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-316.
+283.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 316. on input lin
-e 316.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 283. on input lin
+e 283.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 316.
- [21
+e 283.
+ [20
 
  <./fig/tmplo1.pdf>]
 File: fig/ptplo.pdf Graphic file (type pdf)
 <use fig/ptplo.pdf>
-Package pdftex.def Info: fig/ptplo.pdf  used on input line 316. on input line 3
-16.
-Package pdftex.def Info: Requested size: 54.7685pt x 54.76807pt on input line 3
-16.
-<fig/tmplo2.pdf, id=558, pagebox=cropbox, 505.89pt x 129.48375pt>
+Package pdftex.def Info: fig/ptplo.pdf  used on input line 283. on input line 2
+83.
+Package pdftex.def Info: Requested size: 54.7685pt x 54.76807pt on input line 2
+83.
+<fig/tmplo2.pdf, id=550, pagebox=cropbox, 505.89pt x 129.48375pt>
 File: fig/tmplo2.pdf Graphic file (type pdf)
 <use fig/tmplo2.pdf>
-Package pdftex.def Info: fig/tmplo2.pdf  used on input line 316. on input line 
-316.
-Package pdftex.def Info: Requested size: 342.2953pt x 87.6131pt on input line 3
-16.
+Package pdftex.def Info: fig/tmplo2.pdf  used on input line 283. on input line 
+283.
+Package pdftex.def Info: Requested size: 342.2953pt x 87.6131pt on input line 2
+83.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 316. on input 
-line 316.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 283. on input 
+line 283.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-316.
+283.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 316. on input lin
-e 316.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 283. on input lin
+e 283.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 316.
+e 283.
 
-[22
+[21
 
  <./fig/tmplo2.pdf>]
 File: fig/ptplo.pdf Graphic file (type pdf)
 <use fig/ptplo.pdf>
-Package pdftex.def Info: fig/ptplo.pdf  used on input line 316. on input line 3
-16.
-Package pdftex.def Info: Requested size: 54.7685pt x 54.76807pt on input line 3
-16.
-<fig/tmplo3.pdf, id=570, pagebox=cropbox, 505.89pt x 129.48375pt>
+Package pdftex.def Info: fig/ptplo.pdf  used on input line 283. on input line 2
+83.
+Package pdftex.def Info: Requested size: 54.7685pt x 54.76807pt on input line 2
+83.
+<fig/tmplo3.pdf, id=562, pagebox=cropbox, 505.89pt x 129.48375pt>
 File: fig/tmplo3.pdf Graphic file (type pdf)
 <use fig/tmplo3.pdf>
-Package pdftex.def Info: fig/tmplo3.pdf  used on input line 316. on input line 
-316.
-Package pdftex.def Info: Requested size: 342.2953pt x 87.6131pt on input line 3
-16.
+Package pdftex.def Info: fig/tmplo3.pdf  used on input line 283. on input line 
+283.
+Package pdftex.def Info: Requested size: 342.2953pt x 87.6131pt on input line 2
+83.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 316. on input 
-line 316.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 283. on input 
+line 283.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-316.
+283.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 316. on input lin
-e 316.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 283. on input lin
+e 283.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 316.
- [23
+e 283.
+ [22
 
  <./fig/tmplo3.pdf>]
-<fig/dens1.pdf, id=582, pagebox=cropbox, 505.89pt x 289.08pt>
+<fig/dens1.pdf, id=574, pagebox=cropbox, 505.89pt x 289.08pt>
 File: fig/dens1.pdf Graphic file (type pdf)
 <use fig/dens1.pdf>
-Package pdftex.def Info: fig/dens1.pdf  used on input line 331. on input line 3
-31.
+Package pdftex.def Info: fig/dens1.pdf  used on input line 303. on input line 3
+03.
 Package pdftex.def Info: Requested size: 342.2953pt x 195.60136pt on input line
- 331.
+ 303.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 331. on input 
-line 331.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 303. on input 
+line 303.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-331.
+303.
 
-Overfull \vbox (35.91359pt too high) detected at line 331
+Overfull \vbox (49.5136pt too high) detected at line 303
  []
 
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 331. on input lin
-e 331.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 303. on input lin
+e 303.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 331.
-[24
+e 303.
+[23
 
  <./fig/dens1.pdf>]
-<fig/dens2.pdf, id=598, pagebox=cropbox, 505.89pt x 289.08pt>
+<fig/dens2.pdf, id=590, pagebox=cropbox, 505.89pt x 289.08pt>
 File: fig/dens2.pdf Graphic file (type pdf)
 <use fig/dens2.pdf>
-Package pdftex.def Info: fig/dens2.pdf  used on input line 331. on input line 3
-31.
+Package pdftex.def Info: fig/dens2.pdf  used on input line 303. on input line 3
+03.
 Package pdftex.def Info: Requested size: 342.2953pt x 195.60136pt on input line
- 331.
+ 303.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 331. on input 
-line 331.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 303. on input 
+line 303.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-331.
+303.
 
-Overfull \vbox (22.31358pt too high) detected at line 331
+Overfull \vbox (35.91359pt too high) detected at line 303
  []
 
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 331. on input lin
-e 331.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 303. on input lin
+e 303.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 331.
-[25
+e 303.
+[24
 
  <./fig/dens2.pdf>]
+File: fig/dens2.pdf Graphic file (type pdf)
+<use fig/dens2.pdf>
+Package pdftex.def Info: fig/dens2.pdf  used on input line 303. on input line 3
+03.
+Package pdftex.def Info: Requested size: 342.2953pt x 195.60136pt on input line
+ 303.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 349. on input 
-line 349.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 303. on input 
+line 303.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-349.
+303.
+
+Overfull \vbox (35.91359pt too high) detected at line 303
+ []
+
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 349. on input lin
-e 349.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 303. on input lin
+e 303.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 349.
+e 303.
+[25
+
+]
+File: fig/nceas_small.png Graphic file (type png)
+<use fig/nceas_small.png>
+Package pdftex.def Info: fig/nceas_small.png  used on input line 321. on input 
+line 321.
+Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
+321.
+File: fig/back_tmp.pdf Graphic file (type pdf)
+<use fig/back_tmp.pdf>
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 321. on input lin
+e 321.
+Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
+e 321.
  [26
 
 ]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 349. on input 
-line 349.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 321. on input 
+line 321.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-349.
+321.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 349. on input lin
-e 349.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 321. on input lin
+e 321.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 349.
+e 321.
  [27
 
 ]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 349. on input 
-line 349.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 321. on input 
+line 321.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-349.
+321.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 349. on input lin
-e 349.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 321. on input lin
+e 321.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 349.
+e 321.
  [28
 
 ]
-<fig/simpnet.pdf, id=635, pagebox=cropbox, 289.08pt x 289.08pt>
+<fig/simpnet.pdf, id=633, pagebox=cropbox, 289.08pt x 289.08pt>
 File: fig/simpnet.pdf Graphic file (type pdf)
 <use fig/simpnet.pdf>
-Package pdftex.def Info: fig/simpnet.pdf  used on input line 374. on input line
- 374.
+Package pdftex.def Info: fig/simpnet.pdf  used on input line 346. on input line
+ 346.
 Package pdftex.def Info: Requested size: 188.26346pt x 188.26146pt on input lin
-e 374.
+e 346.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 374. on input 
-line 374.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 346. on input 
+line 346.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-374.
+346.
 
-Overfull \vbox (4.50284pt too high) detected at line 374
+Overfull \vbox (4.50284pt too high) detected at line 346
  []
 
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 374. on input lin
-e 374.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 346. on input lin
+e 346.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 374.
+e 346.
 [29
 
  <./fig/simpnet.pdf>]
 File: fig/simpnet.pdf Graphic file (type pdf)
 <use fig/simpnet.pdf>
-Package pdftex.def Info: fig/simpnet.pdf  used on input line 374. on input line
- 374.
+Package pdftex.def Info: fig/simpnet.pdf  used on input line 346. on input line
+ 346.
 Package pdftex.def Info: Requested size: 188.26346pt x 188.26146pt on input lin
-e 374.
+e 346.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 374. on input 
-line 374.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 346. on input 
+line 346.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-374.
+346.
 
-Overfull \vbox (4.50284pt too high) detected at line 374
+Overfull \vbox (4.50284pt too high) detected at line 346
  []
 
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 374. on input lin
-e 374.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 346. on input lin
+e 346.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 374.
+e 346.
 [30
 
 ]
 File: fig/simpnet.pdf Graphic file (type pdf)
 <use fig/simpnet.pdf>
-Package pdftex.def Info: fig/simpnet.pdf  used on input line 374. on input line
- 374.
+Package pdftex.def Info: fig/simpnet.pdf  used on input line 346. on input line
+ 346.
 Package pdftex.def Info: Requested size: 188.26346pt x 188.26146pt on input lin
-e 374.
+e 346.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 374. on input 
-line 374.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 346. on input 
+line 346.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-374.
+346.
 
-Overfull \vbox (4.50284pt too high) detected at line 374
+Overfull \vbox (4.50284pt too high) detected at line 346
  []
 
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 374. on input lin
-e 374.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 346. on input lin
+e 346.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 374.
+e 346.
 [31
 
 ]
 File: fig/simpnet.pdf Graphic file (type pdf)
 <use fig/simpnet.pdf>
-Package pdftex.def Info: fig/simpnet.pdf  used on input line 374. on input line
- 374.
+Package pdftex.def Info: fig/simpnet.pdf  used on input line 346. on input line
+ 346.
 Package pdftex.def Info: Requested size: 188.26346pt x 188.26146pt on input lin
-e 374.
+e 346.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 374. on input 
-line 374.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 346. on input 
+line 346.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-374.
+346.
 
-Overfull \vbox (4.50284pt too high) detected at line 374
+Overfull \vbox (4.50284pt too high) detected at line 346
  []
 
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 374. on input lin
-e 374.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 346. on input lin
+e 346.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 374.
+e 346.
 [32
 
 ]
 File: fig/simpnet.pdf Graphic file (type pdf)
 <use fig/simpnet.pdf>
-Package pdftex.def Info: fig/simpnet.pdf  used on input line 374. on input line
- 374.
+Package pdftex.def Info: fig/simpnet.pdf  used on input line 346. on input line
+ 346.
 Package pdftex.def Info: Requested size: 188.26346pt x 188.26146pt on input lin
-e 374.
+e 346.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 374. on input 
-line 374.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 346. on input 
+line 346.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-374.
+346.
 
-Overfull \vbox (4.50284pt too high) detected at line 374
+Overfull \vbox (4.50284pt too high) detected at line 346
  []
 
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 374. on input lin
-e 374.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 346. on input lin
+e 346.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 374.
+e 346.
 [33
 
 ]
-<fig/chlpr1.pdf, id=672, pagebox=cropbox, 505.89pt x 325.215pt>
+<fig/chlpr1.pdf, id=670, pagebox=cropbox, 505.89pt x 325.215pt>
 File: fig/chlpr1.pdf Graphic file (type pdf)
 <use fig/chlpr1.pdf>
-Package pdftex.def Info: fig/chlpr1.pdf  used on input line 385. on input line 
-385.
+Package pdftex.def Info: fig/chlpr1.pdf  used on input line 357. on input line 
+357.
 Package pdftex.def Info: Requested size: 308.06367pt x 198.04341pt on input lin
-e 385.
+e 357.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 385. on input 
-line 385.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 357. on input 
+line 357.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-385.
+357.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 385. on input lin
-e 385.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 357. on input lin
+e 357.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 385.
+e 357.
  [34
 
  <./fig/chlpr1.pdf>]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 428. on input 
-line 428.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 400. on input 
+line 400.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-428.
+400.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 428. on input lin
-e 428.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 400. on input lin
+e 400.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 428.
+e 400.
  [35
 
 ]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 428. on input 
-line 428.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 400. on input 
+line 400.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-428.
+400.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 428. on input lin
-e 428.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 400. on input lin
+e 400.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 428.
+e 400.
  [36
 
 ]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 454. on input 
-line 454.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 426. on input 
+line 426.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-454.
+426.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 454. on input lin
-e 454.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 426. on input lin
+e 426.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 454.
+e 426.
  [37
 
 ]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 454. on input 
-line 454.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 426. on input 
+line 426.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-454.
+426.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 454. on input lin
-e 454.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 426. on input lin
+e 426.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 454.
+e 426.
  [38
 
 ]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 470. on input 
-line 470.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 442. on input 
+line 442.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-470.
+442.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 470. on input lin
-e 470.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 442. on input lin
+e 442.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 470.
+e 442.
  [39
 
 ]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 470. on input 
-line 470.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 442. on input 
+line 442.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-470.
+442.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 470. on input lin
-e 470.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 442. on input lin
+e 442.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 470.
+e 442.
  [40
 
 ]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 470. on input 
-line 470.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 442. on input 
+line 442.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-470.
+442.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 470. on input lin
-e 470.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 442. on input lin
+e 442.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 470.
+e 442.
  [41
 
 ]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 470. on input 
-line 470.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 442. on input 
+line 442.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-470.
+442.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 470. on input lin
-e 470.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 442. on input lin
+e 442.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 470.
+e 442.
  [42
 
 ]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 470. on input 
-line 470.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 442. on input 
+line 442.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-470.
+442.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 470. on input lin
-e 470.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 442. on input lin
+e 442.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 470.
+e 442.
  [43
 
 ]
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 470. on input 
-line 470.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 442. on input 
+line 442.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-470.
+442.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 470. on input lin
-e 470.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 442. on input lin
+e 442.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 470.
+e 442.
 
 [44
 
 ]
-<fig/compnet.pdf, id=750, pagebox=cropbox, 505.89pt x 325.215pt>
+<fig/compnet.pdf, id=748, pagebox=cropbox, 505.89pt x 325.215pt>
 File: fig/compnet.pdf Graphic file (type pdf)
 <use fig/compnet.pdf>
-Package pdftex.def Info: fig/compnet.pdf  used on input line 481. on input line
- 481.
+Package pdftex.def Info: fig/compnet.pdf  used on input line 453. on input line
+ 453.
 Package pdftex.def Info: Requested size: 308.06367pt x 198.04341pt on input lin
-e 481.
+e 453.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 481. on input 
-line 481.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 453. on input 
+line 453.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-481.
+453.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 481. on input lin
-e 481.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 453. on input lin
+e 453.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 481.
+e 453.
  [45
 
  <./fig/compnet.pdf>]
 File: fig/scienceflow.png Graphic file (type png)
 <use fig/scienceflow.png>
-Package pdftex.def Info: fig/scienceflow.png  used on input line 489. on input 
-line 489.
+Package pdftex.def Info: fig/scienceflow.png  used on input line 461. on input 
+line 461.
 Package pdftex.def Info: Requested size: 290.9531pt x 176.10464pt on input line
- 489.
+ 461.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 489. on input 
-line 489.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 461. on input 
+line 461.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-489.
+461.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 489. on input lin
-e 489.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 461. on input lin
+e 461.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 489.
+e 461.
  [46
 
 ]
-<fig/openfig.png, id=770, 1419.3828pt x 312.2064pt>
+<fig/openfig.png, id=768, 1419.3828pt x 312.2064pt>
 File: fig/openfig.png Graphic file (type png)
 <use fig/openfig.png>
-Package pdftex.def Info: fig/openfig.png  used on input line 507. on input line
- 507.
+Package pdftex.def Info: fig/openfig.png  used on input line 479. on input line
+ 479.
 Package pdftex.def Info: Requested size: 308.06367pt x 72.09656pt on input line
- 507.
+ 479.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 507. on input 
-line 507.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 479. on input 
+line 479.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-507.
+479.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 507. on input lin
-e 507.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 479. on input lin
+e 479.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 507.
+e 479.
  [47
 
  <./fig/openfig.png>]
 File: fig/openfig.png Graphic file (type png)
 <use fig/openfig.png>
-Package pdftex.def Info: fig/openfig.png  used on input line 507. on input line
- 507.
+Package pdftex.def Info: fig/openfig.png  used on input line 479. on input line
+ 479.
 Package pdftex.def Info: Requested size: 308.06367pt x 72.09656pt on input line
- 507.
+ 479.
 File: fig/nceas_small.png Graphic file (type png)
 <use fig/nceas_small.png>
-Package pdftex.def Info: fig/nceas_small.png  used on input line 507. on input 
-line 507.
+Package pdftex.def Info: fig/nceas_small.png  used on input line 479. on input 
+line 479.
 Package pdftex.def Info: Requested size: 25.49634pt x 23.70746pt on input line 
-507.
+479.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 507. on input lin
-e 507.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 479. on input lin
+e 479.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 507.
+e 479.
  [48
 
 ]
 File: fig/nceas_full.png Graphic file (type png)
 <use fig/nceas_full.png>
-Package pdftex.def Info: fig/nceas_full.png  used on input line 539. on input l
-ine 539.
+Package pdftex.def Info: fig/nceas_full.png  used on input line 511. on input l
+ine 511.
 Package pdftex.def Info: Requested size: 171.14764pt x 34.44342pt on input line
- 539.
-<fig/grplogo.png, id=788, 301.125pt x 125.46875pt>
+ 511.
+<fig/grplogo.png, id=786, 301.125pt x 125.46875pt>
 File: fig/grplogo.png Graphic file (type png)
 <use fig/grplogo.png>
-Package pdftex.def Info: fig/grplogo.png  used on input line 539. on input line
- 539.
+Package pdftex.def Info: fig/grplogo.png  used on input line 511. on input line
+ 511.
 Package pdftex.def Info: Requested size: 102.68962pt x 42.78706pt on input line
- 539.
-<fig/git.png, id=790, 352.40228pt x 352.40228pt>
+ 511.
+<fig/git.png, id=788, 352.40228pt x 352.40228pt>
 File: fig/git.png Graphic file (type png)
 <use fig/git.png>
-Package pdftex.def Info: fig/git.png  used on input line 539. on input line 539
+Package pdftex.def Info: fig/git.png  used on input line 511. on input line 511
 .
-Package pdftex.def Info: Requested size: 8.55789pt x 8.55515pt on input line 53
-9.
+Package pdftex.def Info: Requested size: 8.55789pt x 8.55515pt on input line 51
+1.
 File: fig/git.png Graphic file (type png)
 <use fig/git.png>
-Package pdftex.def Info: fig/git.png  used on input line 539. on input line 539
+Package pdftex.def Info: fig/git.png  used on input line 511. on input line 511
 .
-Package pdftex.def Info: Requested size: 8.55789pt x 8.55515pt on input line 53
-9.
-<fig/twitter.png, id=793, 1263.72125pt x 1027.84pt>
+Package pdftex.def Info: Requested size: 8.55789pt x 8.55515pt on input line 51
+1.
+<fig/twitter.png, id=791, 1263.72125pt x 1027.84pt>
 File: fig/twitter.png Graphic file (type png)
 <use fig/twitter.png>
-Package pdftex.def Info: fig/twitter.png  used on input line 539. on input line
- 539.
-Package pdftex.def Info: Requested size: 8.55789pt x 6.94781pt on input line 53
-9.
+Package pdftex.def Info: fig/twitter.png  used on input line 511. on input line
+ 511.
+Package pdftex.def Info: Requested size: 8.55789pt x 6.94781pt on input line 51
+1.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 539. on input lin
-e 539.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 511. on input lin
+e 511.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 539.
+e 511.
  [49
 
  <./fig/grplogo.png> <./fig/git.png> <./fig/twitter.png>] (AWRA_2018.bbl)
 File: fig/back_tmp.pdf Graphic file (type pdf)
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf  used on input line 549. on input lin
-e 549.
+Package pdftex.def Info: fig/back_tmp.pdf  used on input line 521. on input lin
+e 521.
 Package pdftex.def Info: Requested size: 364.20192pt x 273.15337pt on input lin
-e 549.
+e 521.
  [50
 
 ]
@@ -2479,23 +2465,23 @@ e 549.
 \tf@snm=\write8
 \openout8 = `AWRA_2018.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 551.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 551.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 523.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 523.
 
 (AWRA_2018.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 551.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 551.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 523.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 523.
 Package rerunfilecheck Info: File `AWRA_2018.out' has not changed.
 (rerunfilecheck)             Checksum: 5276EC5092E9C422876015BE063573A5;92.
  ) 
 Here is how much of TeX's memory you used:
- 33840 strings out of 493312
- 693783 string characters out of 3138869
- 780149 words of memory out of 3000000
- 36655 multiletter control sequences out of 15000+200000
- 541199 words of font info for 64 fonts, out of 3000000 for 9000
+ 33711 strings out of 493312
+ 691843 string characters out of 3138869
+ 775833 words of memory out of 3000000
+ 36531 multiletter control sequences out of 15000+200000
+ 541031 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,15n,96p,10412b,790s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,15n,92p,10412b,790s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/Mi
@@ -2506,11 +2492,10 @@ c/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on AWRA_2018.pdf (50 pages, 9576981 bytes).
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb>
+Output written on AWRA_2018.pdf (50 pages, 9564400 bytes).
 PDF statistics:
- 879 PDF objects out of 1000 (max. 8388607)
+ 874 PDF objects out of 1000 (max. 8388607)
  109 named destinations out of 1000 (max. 500000)
  313 words of extra memory for PDF output out of 10000 (max. 10000000)
 
