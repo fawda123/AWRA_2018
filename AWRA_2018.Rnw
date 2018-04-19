@@ -195,8 +195,7 @@ Our experience using the open science workflow to inform restoration projects in
 Can we use disparate data to prioritize future restoration projects aimed at improving water quality? \\~\\
 \begin{itemize}
 \item<+-> \emtxt{Synthesize} data in space and time to evaluate cumulative effects of restoration projects\\~\\
-\item<+-> \emtxt{Develop} a decision support tool with empirical observations to evaluate likelihood of potential outcomes \\~\\
-\item<+-> \emtxt{Apply} the tool to guide expectations for future restoration projects
+\item<+-> \emtxt{Develop} a decision support tool with empirical observations to evaluate likelihood of potential outcomes 
 \end{itemize}
 \end{frame}
 
@@ -1011,7 +1010,8 @@ What aspects of our project used and benefitted from open science? \\~\\
 {\footnotesize
 Research staff and employees at NCEAS: M. B. Jones, A. Budden, T. Neal, B. Mecum, C. Lortie, L. Wasser, J. Brun  \\~\\
 The Gulf Research Program \\~\\
-Field staff and data managers at Hillsborough County Environmental Protection Commission}\\~\\
+Field staff and data managers at Hillsborough County Environmental Protection Commission\\~\\
+Abel Santana (SCCWRP) for cartography\\~\\}
 \end{column}
 \begin{column}{0.2\textwidth}
 \end{column}
