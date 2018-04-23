@@ -633,24 +633,6 @@ For \emtxt{many} water quality stations matched to \emtxt{many} restoration site
 \end{tikzpicture}
 \end{frame}
 
-%%%%%%
-\begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Building a decision support tool}}}
-\onslide<1->
-What is the probability of low/high chlorophyll given other events?\\~\\
-\begin{center}
-$P\left(Chl \mid Event\right) = \frac{P\left(Event \mid Chl\right) \cdot P\left(Chl \right)}{P \left(Event\right)}$ \\~\\
-\end{center}
-\onslide<2->
-\begin{itemize}
-\item Do water quality conditions differ by \emtxt{restoration type}?\\~\\
-\item Does it differ by low/high \emtxt{salinity} as a natural covariate?\\~\\
-\end{itemize}
-\onslide<3->
-\begin{center}
-\emtxt{Bayesian models let us evaluate likelihood of potential outcomes given conditional distributions}
-\end{center}
-\end{frame}
-
 <<cache = T, results = 'hide'>>=
 
 net <- model2network("[Habitat][Water][Salinity|Habitat:Water][Chl-a|Habitat:Water:Salinity]")
@@ -691,7 +673,7 @@ dev.off()
 %%%%%%
 \begin{frame}{{$\vcenter{\hbox{\includegraphics[width=0.07\paperwidth]{fig/nceas_small.png}}}$\hspace{0.07in}\textbf{Building a decision support tool}}}
 \onslide<1->
-Using the \emtxt{conditional probabilities} from the \emtxt{empirical response}, what's the probability of low chlorophyll... 
+Using the \emtxt{conditional probabilities} from the \emtxt{empirical response}, what's the probability of low/high chlorophyll... 
 \begin{columns}
 \begin{column}{0.55\textwidth}
 \onslide<1->
